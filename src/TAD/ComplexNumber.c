@@ -71,5 +71,7 @@ void printComplex(ComplexNumber* myComplex){
     Frees the memory space where the complex number is being stored at.
  */
 void destroyComplexNumber(ComplexNumber* myComplex) {
+    free(&(myComplex->imaginaryPart));
+    free(&(myComplex->realPart));
     free(myComplex);
 }

@@ -36,6 +36,25 @@ int main() {
     getAbsoluteValue(complexNumber1);
     printf("%f \n ", getAbsoluteValue(complexNumber1));
 
+    // TP Memoria dinamica
+
+    int a = 10;
+    int* b;
+    b = &a;
+    *b = 1;
+    printf("\nvalue of a: %d" , a);
+    printf("\nvalue of *b: %d" , *b);
+
+    int c,d, *e;
+    e = &c;
+    *e = 10;
+    printf("\nvalue of c: %d" , c);
+    printf("\nvalue of *e:  %d" , *e);
+    e = &d;
+    *e = -2;
+    printf("\nvalue of d: %d" , d);
+    printf("\nvalue of *e: %d" , *e);
+
     destroyComplexNumber(complexNumber1);
     destroyComplexNumber(complexNumber2);
 

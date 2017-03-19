@@ -78,7 +78,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/main.c">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/Class1_Introduction/Car.c">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/Class1_Introduction/Car.h">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/Class1_Introduction/Main.c">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/Class1_Introduction/Parking.c">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/Class1_Introduction/Parking.h">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TAD/ComplexNumber.c">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TAD/ComplexNumber.h">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TAD/Tester.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
 		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/CMakeLists.txt">
