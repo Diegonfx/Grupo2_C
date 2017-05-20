@@ -102,6 +102,195 @@
 		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TAD/Tester.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Cart.c">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Cart.h">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Catalogue.c">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Catalogue.h">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Item.c">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Item.h">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Label.c">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Label.h">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/LineCart.c">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/LineCart.h">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/LineTicket.c">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/LineTicket.h">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Manufacturer.c">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Manufacturer.h">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Supplier.c">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Supplier.h">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Ticket.c">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Ticket.h">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Accessory.c">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Accessory.h">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Camera.c">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Camera.h">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/LineSales.c">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/LineSales.h">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Producer.c">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Producer.h">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Product.c">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Product.h">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/RegisteredUser.c">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/RegisteredUser.h">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Sales.c">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Sales.h">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Supplier.c">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Supplier.h">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio3/Library.c">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio3/Library.h">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio3/Loan.c">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio3/Loan.h">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio3/Material.c">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio3/Material.h">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio3/Person.c">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio3/Person.h">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio3/Simulator.c">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Client.c">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Client.h">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Receptionist.c">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Receptionist.h">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Reservation.c">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Reservation.h">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Room.c">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Room.h">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Ticket.c">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Ticket.h">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio5/Administrator.c">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio5/Administrator.h">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio5/Client.c">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio5/Client.h">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio5/Excedent.c">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio5/Excedent.h">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio5/License.c">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio5/License.h">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio5/Rental.c">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio5/Rental.h">
+			<Option target="Grupo2_C"/>
+		</Unit>
 		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
