@@ -18,3 +18,108 @@ CMakeFiles/Grupo2_C.dir/src/TAD/ComplexNumber.c.o: ../src/TAD/ComplexNumber.h
 CMakeFiles/Grupo2_C.dir/src/TAD/Tester.c.o: ../src/TAD/ComplexNumber.h
 CMakeFiles/Grupo2_C.dir/src/TAD/Tester.c.o: ../src/TAD/Tester.c
 
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Cart.c.o: ../src/TP_Cuatrimestral/Ejercicio1/Cart.c
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Cart.c.o: ../src/TP_Cuatrimestral/Ejercicio1/Cart.h
+
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Catalogue.c.o: ../src/TP_Cuatrimestral/Ejercicio1/Catalogue.c
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Catalogue.c.o: ../src/TP_Cuatrimestral/Ejercicio1/Catalogue.h
+
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Item.c.o: ../src/TP_Cuatrimestral/Ejercicio1/Item.c
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Item.c.o: ../src/TP_Cuatrimestral/Ejercicio1/Item.h
+
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Label.c.o: ../src/TP_Cuatrimestral/Ejercicio1/Label.c
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Label.c.o: ../src/TP_Cuatrimestral/Ejercicio1/Label.h
+
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/LineCart.c.o: ../src/TP_Cuatrimestral/Ejercicio1/LineCart.c
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/LineCart.c.o: ../src/TP_Cuatrimestral/Ejercicio1/LineCart.h
+
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/LineTicket.c.o: ../src/TP_Cuatrimestral/Ejercicio1/LineTicket.c
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/LineTicket.c.o: ../src/TP_Cuatrimestral/Ejercicio1/LineTicket.h
+
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Manufacturer.c.o: ../src/TP_Cuatrimestral/Ejercicio1/Manufacturer.c
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Manufacturer.c.o: ../src/TP_Cuatrimestral/Ejercicio1/Manufacturer.h
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Manufacturer.c.o: ../src/TP_Cuatrimestral/Ejercicio2/Producer.h
+
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Supplier.c.o: ../src/TP_Cuatrimestral/Ejercicio1/Supplier.c
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Supplier.c.o: ../src/TP_Cuatrimestral/Ejercicio1/Supplier.h
+
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Ticket.c.o: ../src/TP_Cuatrimestral/Ejercicio1/Ticket.c
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Ticket.c.o: ../src/TP_Cuatrimestral/Ejercicio1/Ticket.h
+
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.o: ../src/TP_Cuatrimestral/Ejercicio2/Accessory.c
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.o: ../src/TP_Cuatrimestral/Ejercicio2/Accessory.h
+
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.o: ../src/TP_Cuatrimestral/Ejercicio2/Camera.c
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.o: ../src/TP_Cuatrimestral/Ejercicio2/Camera.h
+
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/LineSales.c.o: ../src/TP_Cuatrimestral/Ejercicio2/LineSales.c
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/LineSales.c.o: ../src/TP_Cuatrimestral/Ejercicio2/LineSales.h
+
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Producer.c.o: ../src/TP_Cuatrimestral/Ejercicio2/Producer.c
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Producer.c.o: ../src/TP_Cuatrimestral/Ejercicio2/Producer.h
+
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Product.c.o: ../src/TP_Cuatrimestral/Ejercicio2/Product.c
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Product.c.o: ../src/TP_Cuatrimestral/Ejercicio2/Product.h
+
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/RegisteredUser.c.o: ../src/TP_Cuatrimestral/Ejercicio2/RegisteredUser.c
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/RegisteredUser.c.o: ../src/TP_Cuatrimestral/Ejercicio2/RegisteredUser.h
+
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Sales.c.o: ../src/TP_Cuatrimestral/Ejercicio2/Sales.c
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Sales.c.o: ../src/TP_Cuatrimestral/Ejercicio2/Sales.h
+
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Supplier.c.o: ../src/TP_Cuatrimestral/Ejercicio2/Supplier.c
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Supplier.c.o: ../src/TP_Cuatrimestral/Ejercicio2/Supplier.h
+
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Library.c.o: ../src/TP_Cuatrimestral/Ejercicio3/Library.c
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Library.c.o: ../src/TP_Cuatrimestral/Ejercicio3/Library.h
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Library.c.o: ../src/TP_Cuatrimestral/Ejercicio3/Loan.h
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Library.c.o: ../src/TP_Cuatrimestral/Ejercicio3/Material.h
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Library.c.o: ../src/TP_Cuatrimestral/Ejercicio3/Person.h
+
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Loan.c.o: ../src/TP_Cuatrimestral/Ejercicio3/Loan.c
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Loan.c.o: ../src/TP_Cuatrimestral/Ejercicio3/Loan.h
+
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Material.c.o: ../src/TP_Cuatrimestral/Ejercicio3/Material.c
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Material.c.o: ../src/TP_Cuatrimestral/Ejercicio3/Material.h
+
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Person.c.o: ../src/TP_Cuatrimestral/Ejercicio3/Library.h
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Person.c.o: ../src/TP_Cuatrimestral/Ejercicio3/Loan.h
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Person.c.o: ../src/TP_Cuatrimestral/Ejercicio3/Material.h
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Person.c.o: ../src/TP_Cuatrimestral/Ejercicio3/Person.c
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Person.c.o: ../src/TP_Cuatrimestral/Ejercicio3/Person.h
+
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Simulator.c.o: ../src/TP_Cuatrimestral/Ejercicio3/Library.h
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Simulator.c.o: ../src/TP_Cuatrimestral/Ejercicio3/Loan.h
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Simulator.c.o: ../src/TP_Cuatrimestral/Ejercicio3/Material.h
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Simulator.c.o: ../src/TP_Cuatrimestral/Ejercicio3/Person.h
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Simulator.c.o: ../src/TP_Cuatrimestral/Ejercicio3/Simulator.c
+
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Client.c.o: ../src/TP_Cuatrimestral/Ejercicio4/Client.c
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Client.c.o: ../src/TP_Cuatrimestral/Ejercicio4/Client.h
+
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Receptionist.c.o: ../src/TP_Cuatrimestral/Ejercicio4/Receptionist.c
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Receptionist.c.o: ../src/TP_Cuatrimestral/Ejercicio4/Receptionist.h
+
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Reservation.c.o: ../src/TP_Cuatrimestral/Ejercicio4/Reservation.c
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Reservation.c.o: ../src/TP_Cuatrimestral/Ejercicio4/Reservation.h
+
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Room.c.o: ../src/TP_Cuatrimestral/Ejercicio4/Room.c
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Room.c.o: ../src/TP_Cuatrimestral/Ejercicio4/Room.h
+
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Ticket.c.o: ../src/TP_Cuatrimestral/Ejercicio4/Ticket.c
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Ticket.c.o: ../src/TP_Cuatrimestral/Ejercicio4/Ticket.h
+
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Administrator.c.o: ../src/TP_Cuatrimestral/Ejercicio5/Administrator.c
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Administrator.c.o: ../src/TP_Cuatrimestral/Ejercicio5/Administrator.h
+
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Client.c.o: ../src/TP_Cuatrimestral/Ejercicio5/Client.c
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Client.c.o: ../src/TP_Cuatrimestral/Ejercicio5/Client.h
+
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Excedent.c.o: ../src/TP_Cuatrimestral/Ejercicio5/Excedent.c
+
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/License.c.o: ../src/TP_Cuatrimestral/Ejercicio5/License.c
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/License.c.o: ../src/TP_Cuatrimestral/Ejercicio5/License.h
+
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Rental.c.o: ../src/TP_Cuatrimestral/Ejercicio5/Rental.c
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Rental.c.o: ../src/TP_Cuatrimestral/Ejercicio5/Rental.h
+

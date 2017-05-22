@@ -19,14 +19,13 @@ struct student {
     char* email;
     int phone;
     int amountBooks;
+    int amountMagazines;
     double payment;
     int idStudent;
 };
 
 //Methods
 Student* newStudent(char* name, char* surname, char* email, int phone, int idStudent);
-void studentTakesBook(Book* book1 , Library* library1, Student* student1);
-void studentTakesMagazine(Magazine* book1 , Library* library1, Student* student1);
 void annihilateStudent(Student* student1);
 
 //PROFESSOR
@@ -40,15 +39,14 @@ struct professor {
     char* email;
     int phone;
     int amountBooks;
+    int amountMagazines;
     double payment;
     int idProfessor;
 };
 
 //Methods
 Professor* newProfessor(char* name, char* surname, char* email, int phone, int idProfessor);
-void professorTakesBook(Book* book1 , Library* library1, Professor* professor1);
-void professorTakesMagazine(Magazine* book1 , Library* library1, Professor* professor1);
-void annihilateProfessor(Professor* professor1);
+void annihilateProfessor(Professor* professor);
 
 
 #endif //GRUPO2_C_PERSON_H

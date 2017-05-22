@@ -19,7 +19,7 @@ struct book{
 };
 
 //Methods
-Book* newBook(char* type, char* codeISBN, char* author, char* title, int year, char* status, char* editorial);
+Book* newBook(char* codeISBN, char* author, char* title, int year, char* editorial);
 void annihilateBook(Book* book1);
 
 
@@ -36,7 +36,7 @@ struct magazine{
 };
 
 //Methods
-Magazine* newMagazine(char* type, char* codeISBN, char* author, char* title, int year, char* status);
+Magazine* newMagazine(char* codeISBN, char* author, char* title, int year);
 void annihilateMagazine(Magazine* magazine1);
 
 #endif //GRUPO2_C_MATERIAL_H

@@ -26,11 +26,23 @@ struct library {
 };
 
 Library* newLibrary(char* name);
-void annihilateLibrary(Library* library);
+
 void addBook(Book* book1 , Library* library1);
 void addMagazine(Magazine* magazine1, Library* library1);
 void addStudent(Student* student1, Library* library1);
 void addProfessor(Professor* professor1, Library* library1);
 void addLoan(Loan* loan1, Library* library1);
+
+void rentBookStudent(Book* book1, Library* library1 , Student* student1);
+void rentMagazineStudent(Magazine* magazine1, Library* library1, Student* student1);
+void rentBookProfessor(Book* book1, Library* library1 , Professor* professor);
+void rentMagazineProfessor(Magazine* magazine1, Library* library1, Professor* professor1);
+
+void returnBookStudent(Book* book1, Library* library1 , Student* student1);
+void returnMagazineStudent(Magazine* magazine1, Library* library1 , Student* student1);
+void returnBookProfessor(Book* book1, Library* library1 , Professor* professor);
+void returnMagazineProfessor(Magazine* magazine1, Library* library1, Professor* professor1);
+
+void annihilateLibrary(Library* library);
 
 #endif //GRUPO2_C_LIBRARY_H

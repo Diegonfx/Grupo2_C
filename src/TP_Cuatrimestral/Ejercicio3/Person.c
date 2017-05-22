@@ -22,6 +22,7 @@ Student* newStudent(char* name, char* surname, char* email, int phone, int idStu
     student1->email = email;
     student1->phone = phone;
     student1->amountBooks = 0;
+    student1->amountMagazines = 0;
     student1->payment = 0;
     student1->idStudent = idStudent;
 
@@ -33,16 +34,12 @@ Student* newStudent(char* name, char* surname, char* email, int phone, int idStu
 
 }
 
-void studentTakesBook(Book* book1 , Library* library1, Student* student1){
-
-}
-
-void studentTakesMagazine(Magazine* book1 , Library* library1, Student* student1){
-
-}
-
 void annihilateStudent(Student* student1){
-
+    free(student1->name);
+    free(student1->surname);
+    free(student1->email);
+    free(student1->type);
+    free(student1);
 }
 
 //PROFESSOR
@@ -61,6 +58,7 @@ Professor* newProfessor(char* name, char* surname, char* email, int phone, int i
     pro->email = email;
     pro->phone = phone;
     pro->amountBooks = 0;
+    pro->amountMagazines = 0;
     pro->payment = 0;
     pro->idProfessor = idProfessor;
 
@@ -71,14 +69,10 @@ Professor* newProfessor(char* name, char* surname, char* email, int phone, int i
     return pro;
 }
 
-void professorTakesBook(Book* book1 , Library* library1, Professor* professor1){
-
-}
-
-void professorTakesMagazine(Magazine* book1 , Library* library1, Professor* professor1){
-
-}
-
-void annihilateProfessor(Professor* professor1){
-
+void annihilateProfessor(Professor* professor){
+    free(professor->name);
+    free(professor->surname);
+    free(professor->email);
+    free(professor->type);
+    free(professor);
 }

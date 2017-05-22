@@ -68,8 +68,91 @@ void addProfessor(Professor* professor1, Library* library1){
 }
 
 void addLoan(Loan* loan1, Library* library1){
+    if(library1->loanQuantity % 10 == 0) {
+        realloc(library1->transactionsMade, sizeof(Loan*) +10);
+    } else {
+        library1->transactionsMade[library1->loanQuantity] = loan1;
+        library1->loanQuantity++;
+    }
+}
+
+void rentBookStudent(Book* book1, Library* library1 , Student* student1) {
+    Loan* loan1 = newLoan(book1->codeISBN , student1->idStudent , library1);
+    student1->amountBooks++;
+    book1->status = "Taken";
+    library1->loanQuantity++;
+    for (int i = 0; i < library1->booksQuantity; ++i) {
+        if (strcmp(book1->codeISBN , (const char *) library1->booksRegistered[i]) == 0) {
+            library1->booksRegistered[i] = NULL;
+            library1->booksQuantity--;
+        }
+    }
+    addLoan(loan1 , library1);
+}
+
+void rentMagazineStudent(Magazine* magazine1, Library* library1, Student* student1){
+    Loan* loan1 = newLoan(magazine1->codeISBN , student1->idStudent , library1);
+    student1->amountMagazines++;
+    magazine1->status = "Taken";
+    library1->loanQuantity++;
+    for (int i = 0; i < library1->magazineQuantity; ++i) {
+        if (strcmp(magazine1->codeISBN , (const char *) library1->magazinesRegistered[i]) == 0) {
+            library1->magazinesRegistered[i] = NULL;
+            library1->magazineQuantity--;
+        }
+    }
+    addLoan(loan1 , library1);
+}
+
+void rentBookProfessor(Book* book1, Library* library1 , Professor* professor){
+    Loan* loan1 = newLoan(book1->codeISBN , professor->idProfessor , library1);
+    professor->amountBooks++;
+    book1->status = "Taken";
+    library1->loanQuantity++;
+    for (int i = 0; i < library1->booksQuantity; ++i) {
+        if (strcmp(book1->codeISBN , (const char *) library1->booksRegistered[i]) == 0) {
+            library1->booksRegistered[i] = NULL;
+            library1->booksQuantity--;
+        }
+    }
+    addLoan(loan1 , library1);
+}
+
+void rentMagazineProfessor(Magazine* magazine1, Library* library1, Professor* professor1){
+    Loan* loan1 = newLoan(magazine1->codeISBN , professor1->idProfessor , library1);
+    professor1->amountMagazines++;
+    magazine1->status = "NOT TAKEN";
+    library1->loanQuantity++;
+    for (int i = 0; i < library1->magazineQuantity; ++i) {
+        if (strcmp(magazine1->codeISBN , (const char *) library1->magazinesRegistered[i]) == 0) {
+            library1->magazinesRegistered[i] = NULL;
+            library1->magazineQuantity--;
+        }
+    }
+    addLoan(loan1 , library1);
 
 }
+
+void returnBookStudent(Book* book1 , Library* library1 , Student* student1) {
+    addBook(book1 , library1);
+    student1->amountBooks--;
+}
+
+void returnMagazineStudent(Magazine* magazine1, Library* library1 , Student* student1) {
+    addMagazine(magazine1, library1);
+    student1->amountMagazines--;
+}
+
+void returnBookProfessor(Book* book1, Library* library1 , Professor* professor){
+    addBook(book1 , library1);
+    professor->amountBooks--;
+}
+
+void returnMagazineProfessor(Magazine* magazine1, Library* library1, Professor* professor1){
+    addMagazine(magazine1, library1);
+    professor1->amountMagazines--;
+}
+
 
 void annihilateLibrary(Library* library){
     free(library->name);
