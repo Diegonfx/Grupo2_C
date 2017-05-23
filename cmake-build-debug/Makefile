@@ -258,6 +258,33 @@ src/TAD/Tester.c.s:
 	$(MAKE) -f CMakeFiles/Grupo2_C.dir/build.make CMakeFiles/Grupo2_C.dir/src/TAD/Tester.c.s
 .PHONY : src/TAD/Tester.c.s
 
+src/TP_Cuatrimestral/Ejercicio1/Business.o: src/TP_Cuatrimestral/Ejercicio1/Business.c.o
+
+.PHONY : src/TP_Cuatrimestral/Ejercicio1/Business.o
+
+# target to build an object file
+src/TP_Cuatrimestral/Ejercicio1/Business.c.o:
+	$(MAKE) -f CMakeFiles/Grupo2_C.dir/build.make CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Business.c.o
+.PHONY : src/TP_Cuatrimestral/Ejercicio1/Business.c.o
+
+src/TP_Cuatrimestral/Ejercicio1/Business.i: src/TP_Cuatrimestral/Ejercicio1/Business.c.i
+
+.PHONY : src/TP_Cuatrimestral/Ejercicio1/Business.i
+
+# target to preprocess a source file
+src/TP_Cuatrimestral/Ejercicio1/Business.c.i:
+	$(MAKE) -f CMakeFiles/Grupo2_C.dir/build.make CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Business.c.i
+.PHONY : src/TP_Cuatrimestral/Ejercicio1/Business.c.i
+
+src/TP_Cuatrimestral/Ejercicio1/Business.s: src/TP_Cuatrimestral/Ejercicio1/Business.c.s
+
+.PHONY : src/TP_Cuatrimestral/Ejercicio1/Business.s
+
+# target to generate assembly for a file
+src/TP_Cuatrimestral/Ejercicio1/Business.c.s:
+	$(MAKE) -f CMakeFiles/Grupo2_C.dir/build.make CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Business.c.s
+.PHONY : src/TP_Cuatrimestral/Ejercicio1/Business.c.s
+
 src/TP_Cuatrimestral/Ejercicio1/Cart.o: src/TP_Cuatrimestral/Ejercicio1/Cart.c.o
 
 .PHONY : src/TP_Cuatrimestral/Ejercicio1/Cart.o
@@ -852,59 +879,59 @@ src/TP_Cuatrimestral/Ejercicio3/Simulator.c.s:
 	$(MAKE) -f CMakeFiles/Grupo2_C.dir/build.make CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Simulator.c.s
 .PHONY : src/TP_Cuatrimestral/Ejercicio3/Simulator.c.s
 
-src/TP_Cuatrimestral/Ejercicio4/Client.o: src/TP_Cuatrimestral/Ejercicio4/Client.c.o
+src/TP_Cuatrimestral/Ejercicio4/Hotel.o: src/TP_Cuatrimestral/Ejercicio4/Hotel.c.o
 
-.PHONY : src/TP_Cuatrimestral/Ejercicio4/Client.o
-
-# target to build an object file
-src/TP_Cuatrimestral/Ejercicio4/Client.c.o:
-	$(MAKE) -f CMakeFiles/Grupo2_C.dir/build.make CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Client.c.o
-.PHONY : src/TP_Cuatrimestral/Ejercicio4/Client.c.o
-
-src/TP_Cuatrimestral/Ejercicio4/Client.i: src/TP_Cuatrimestral/Ejercicio4/Client.c.i
-
-.PHONY : src/TP_Cuatrimestral/Ejercicio4/Client.i
-
-# target to preprocess a source file
-src/TP_Cuatrimestral/Ejercicio4/Client.c.i:
-	$(MAKE) -f CMakeFiles/Grupo2_C.dir/build.make CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Client.c.i
-.PHONY : src/TP_Cuatrimestral/Ejercicio4/Client.c.i
-
-src/TP_Cuatrimestral/Ejercicio4/Client.s: src/TP_Cuatrimestral/Ejercicio4/Client.c.s
-
-.PHONY : src/TP_Cuatrimestral/Ejercicio4/Client.s
-
-# target to generate assembly for a file
-src/TP_Cuatrimestral/Ejercicio4/Client.c.s:
-	$(MAKE) -f CMakeFiles/Grupo2_C.dir/build.make CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Client.c.s
-.PHONY : src/TP_Cuatrimestral/Ejercicio4/Client.c.s
-
-src/TP_Cuatrimestral/Ejercicio4/Receptionist.o: src/TP_Cuatrimestral/Ejercicio4/Receptionist.c.o
-
-.PHONY : src/TP_Cuatrimestral/Ejercicio4/Receptionist.o
+.PHONY : src/TP_Cuatrimestral/Ejercicio4/Hotel.o
 
 # target to build an object file
-src/TP_Cuatrimestral/Ejercicio4/Receptionist.c.o:
-	$(MAKE) -f CMakeFiles/Grupo2_C.dir/build.make CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Receptionist.c.o
-.PHONY : src/TP_Cuatrimestral/Ejercicio4/Receptionist.c.o
+src/TP_Cuatrimestral/Ejercicio4/Hotel.c.o:
+	$(MAKE) -f CMakeFiles/Grupo2_C.dir/build.make CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Hotel.c.o
+.PHONY : src/TP_Cuatrimestral/Ejercicio4/Hotel.c.o
 
-src/TP_Cuatrimestral/Ejercicio4/Receptionist.i: src/TP_Cuatrimestral/Ejercicio4/Receptionist.c.i
+src/TP_Cuatrimestral/Ejercicio4/Hotel.i: src/TP_Cuatrimestral/Ejercicio4/Hotel.c.i
 
-.PHONY : src/TP_Cuatrimestral/Ejercicio4/Receptionist.i
+.PHONY : src/TP_Cuatrimestral/Ejercicio4/Hotel.i
 
 # target to preprocess a source file
-src/TP_Cuatrimestral/Ejercicio4/Receptionist.c.i:
-	$(MAKE) -f CMakeFiles/Grupo2_C.dir/build.make CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Receptionist.c.i
-.PHONY : src/TP_Cuatrimestral/Ejercicio4/Receptionist.c.i
+src/TP_Cuatrimestral/Ejercicio4/Hotel.c.i:
+	$(MAKE) -f CMakeFiles/Grupo2_C.dir/build.make CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Hotel.c.i
+.PHONY : src/TP_Cuatrimestral/Ejercicio4/Hotel.c.i
 
-src/TP_Cuatrimestral/Ejercicio4/Receptionist.s: src/TP_Cuatrimestral/Ejercicio4/Receptionist.c.s
+src/TP_Cuatrimestral/Ejercicio4/Hotel.s: src/TP_Cuatrimestral/Ejercicio4/Hotel.c.s
 
-.PHONY : src/TP_Cuatrimestral/Ejercicio4/Receptionist.s
+.PHONY : src/TP_Cuatrimestral/Ejercicio4/Hotel.s
 
 # target to generate assembly for a file
-src/TP_Cuatrimestral/Ejercicio4/Receptionist.c.s:
-	$(MAKE) -f CMakeFiles/Grupo2_C.dir/build.make CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Receptionist.c.s
-.PHONY : src/TP_Cuatrimestral/Ejercicio4/Receptionist.c.s
+src/TP_Cuatrimestral/Ejercicio4/Hotel.c.s:
+	$(MAKE) -f CMakeFiles/Grupo2_C.dir/build.make CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Hotel.c.s
+.PHONY : src/TP_Cuatrimestral/Ejercicio4/Hotel.c.s
+
+src/TP_Cuatrimestral/Ejercicio4/Person.o: src/TP_Cuatrimestral/Ejercicio4/Person.c.o
+
+.PHONY : src/TP_Cuatrimestral/Ejercicio4/Person.o
+
+# target to build an object file
+src/TP_Cuatrimestral/Ejercicio4/Person.c.o:
+	$(MAKE) -f CMakeFiles/Grupo2_C.dir/build.make CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Person.c.o
+.PHONY : src/TP_Cuatrimestral/Ejercicio4/Person.c.o
+
+src/TP_Cuatrimestral/Ejercicio4/Person.i: src/TP_Cuatrimestral/Ejercicio4/Person.c.i
+
+.PHONY : src/TP_Cuatrimestral/Ejercicio4/Person.i
+
+# target to preprocess a source file
+src/TP_Cuatrimestral/Ejercicio4/Person.c.i:
+	$(MAKE) -f CMakeFiles/Grupo2_C.dir/build.make CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Person.c.i
+.PHONY : src/TP_Cuatrimestral/Ejercicio4/Person.c.i
+
+src/TP_Cuatrimestral/Ejercicio4/Person.s: src/TP_Cuatrimestral/Ejercicio4/Person.c.s
+
+.PHONY : src/TP_Cuatrimestral/Ejercicio4/Person.s
+
+# target to generate assembly for a file
+src/TP_Cuatrimestral/Ejercicio4/Person.c.s:
+	$(MAKE) -f CMakeFiles/Grupo2_C.dir/build.make CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Person.c.s
+.PHONY : src/TP_Cuatrimestral/Ejercicio4/Person.c.s
 
 src/TP_Cuatrimestral/Ejercicio4/Reservation.o: src/TP_Cuatrimestral/Ejercicio4/Reservation.c.o
 
@@ -1146,6 +1173,9 @@ help:
 	@echo "... src/TAD/Tester.o"
 	@echo "... src/TAD/Tester.i"
 	@echo "... src/TAD/Tester.s"
+	@echo "... src/TP_Cuatrimestral/Ejercicio1/Business.o"
+	@echo "... src/TP_Cuatrimestral/Ejercicio1/Business.i"
+	@echo "... src/TP_Cuatrimestral/Ejercicio1/Business.s"
 	@echo "... src/TP_Cuatrimestral/Ejercicio1/Cart.o"
 	@echo "... src/TP_Cuatrimestral/Ejercicio1/Cart.i"
 	@echo "... src/TP_Cuatrimestral/Ejercicio1/Cart.s"
@@ -1212,12 +1242,12 @@ help:
 	@echo "... src/TP_Cuatrimestral/Ejercicio3/Simulator.o"
 	@echo "... src/TP_Cuatrimestral/Ejercicio3/Simulator.i"
 	@echo "... src/TP_Cuatrimestral/Ejercicio3/Simulator.s"
-	@echo "... src/TP_Cuatrimestral/Ejercicio4/Client.o"
-	@echo "... src/TP_Cuatrimestral/Ejercicio4/Client.i"
-	@echo "... src/TP_Cuatrimestral/Ejercicio4/Client.s"
-	@echo "... src/TP_Cuatrimestral/Ejercicio4/Receptionist.o"
-	@echo "... src/TP_Cuatrimestral/Ejercicio4/Receptionist.i"
-	@echo "... src/TP_Cuatrimestral/Ejercicio4/Receptionist.s"
+	@echo "... src/TP_Cuatrimestral/Ejercicio4/Hotel.o"
+	@echo "... src/TP_Cuatrimestral/Ejercicio4/Hotel.i"
+	@echo "... src/TP_Cuatrimestral/Ejercicio4/Hotel.s"
+	@echo "... src/TP_Cuatrimestral/Ejercicio4/Person.o"
+	@echo "... src/TP_Cuatrimestral/Ejercicio4/Person.i"
+	@echo "... src/TP_Cuatrimestral/Ejercicio4/Person.s"
 	@echo "... src/TP_Cuatrimestral/Ejercicio4/Reservation.o"
 	@echo "... src/TP_Cuatrimestral/Ejercicio4/Reservation.i"
 	@echo "... src/TP_Cuatrimestral/Ejercicio4/Reservation.s"

@@ -12,6 +12,7 @@ Catalogue* newCatalogue(char* id, char* name, int discount){
 
     result->id = malloc(sizeof(char) * strlen(id));
     result->name = malloc(sizeof(char) * strlen(name));
+    result->listItems = malloc(sizeof(Item) * 10);
 
     result->id = id;
     result->name = name;
@@ -26,5 +27,6 @@ Catalogue* newCatalogue(char* id, char* name, int discount){
 void annihilateCatalogue(Catalogue* catalogue1){
     free(catalogue1->name);
     free(catalogue1->id);
+    free(catalogue1->listItems);
     free(catalogue1);
 }

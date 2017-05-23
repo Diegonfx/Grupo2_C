@@ -76,8 +76,11 @@ CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Library.c.o: ../src/TP_C
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Library.c.o: ../src/TP_Cuatrimestral/Ejercicio3/Material.h
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Library.c.o: ../src/TP_Cuatrimestral/Ejercicio3/Person.h
 
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Loan.c.o: ../src/TP_Cuatrimestral/Ejercicio3/Library.h
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Loan.c.o: ../src/TP_Cuatrimestral/Ejercicio3/Loan.c
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Loan.c.o: ../src/TP_Cuatrimestral/Ejercicio3/Loan.h
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Loan.c.o: ../src/TP_Cuatrimestral/Ejercicio3/Material.h
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Loan.c.o: ../src/TP_Cuatrimestral/Ejercicio3/Person.h
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Material.c.o: ../src/TP_Cuatrimestral/Ejercicio3/Material.c
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Material.c.o: ../src/TP_Cuatrimestral/Ejercicio3/Material.h

@@ -102,6 +102,12 @@
 		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TAD/Tester.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Business.c">
+			<Option target="Grupo2_C"/>
+		</Unit>
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Business.h">
+			<Option target="Grupo2_C"/>
+		</Unit>
 		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Cart.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
@@ -231,16 +237,16 @@
 		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio3/Simulator.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Client.c">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Hotel.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Client.h">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Hotel.h">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Receptionist.c">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Person.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Receptionist.h">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Person.h">
 			<Option target="Grupo2_C"/>
 		</Unit>
 		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Reservation.c">

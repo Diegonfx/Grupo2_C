@@ -5,6 +5,9 @@
 #ifndef GRUPO2_C_CART_H
 #define GRUPO2_C_CART_H
 
+#include "Ticket.h"
+#include "Item.h"
+
 typedef struct cart Cart;
 
 struct cart {
@@ -13,6 +16,7 @@ struct cart {
 };
 
 Cart* newCart(char* id, float units);
+Ticket* produceTicket(Item* item1);
 void annihilateCart(Cart* cart1);
 
 #endif //GRUPO2_C_CART_H
