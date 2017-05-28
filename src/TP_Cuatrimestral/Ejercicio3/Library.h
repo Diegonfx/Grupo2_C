@@ -43,6 +43,6 @@ void returnMagazineStudent(Magazine* magazine1, Library* library1 , Student* stu
 void returnBookProfessor(Book* book1, Library* library1 , Professor* professor);
 void returnMagazineProfessor(Magazine* magazine1, Library* library1, Professor* professor1);
 
-void annihilateLibrary(Library* library);
+void destroyLibrary(Library* library);
 
 #endif //GRUPO2_C_LIBRARY_H

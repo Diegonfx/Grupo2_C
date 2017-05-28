@@ -35,7 +35,7 @@ Book* newBook(char* codeISBN, char* author, char* title, int year,  char* editor
     return book1;
 }
 
-void annihilateBook(Book* book1){
+void destroyBook(Book* book1){
     free(book1->type);
     free(book1->codeISBN);
     free(book1->author);
@@ -70,7 +70,7 @@ Magazine* newMagazine(char* codeISBN, char* author, char* title, int year){
     return magazine;
 }
 
-void annihilateMagazine(Magazine* magazine1){
+void destroyMagazine(Magazine* magazine1){
     free(magazine1->type);
     free(magazine1->codeISBN);
     free(magazine1->author);

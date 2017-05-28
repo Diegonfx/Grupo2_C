@@ -154,22 +154,22 @@ void returnMagazineProfessor(Magazine* magazine1, Library* library1, Professor* 
 }
 
 
-void annihilateLibrary(Library* library){
+void destroyLibrary(Library* library){
     free(library->name);
     for (int i = 0; i < library->booksQuantity; i++) {
-        annihilateBook(library->booksRegistered[i]);
+        destroyBook(library->booksRegistered[i]);
     }
     for (int j = 0; j < library->magazineQuantity; j++) {
-        annihilateMagazine(library->magazinesRegistered[j]);
+        destroyMagazine(library->magazinesRegistered[j]);
     }
     for (int k = 0; k < library->studentQuantity; k++) {
-        annihilateStudent(library->studentsRegistered[k]);
+        destroyStudent(library->studentsRegistered[k]);
     }
     for (int l = 0; l < library->professorQuantity; l++) {
-        annihilateProfessor(library->professorsRegistered[l]);
+        destroyProfessor(library->professorsRegistered[l]);
     }
     for (int m = 0; m < library->loanQuantity; m++) {
-        annihilateLoan(library->transactionsMade[m]);
+        destroyLoan(library->transactionsMade[m]);
     }
     free(library);
 }

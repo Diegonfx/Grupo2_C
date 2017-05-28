@@ -34,7 +34,7 @@ Loan* newLoan(char* code, char* id , Library* library){
     return loan1;
 }
 
-void annihilateLoan(Loan* loan1){
+void destroyLoan(Loan *loan1){
     free(loan1->code);
     free(loan1->id);
     free(loan1->dateTaken);

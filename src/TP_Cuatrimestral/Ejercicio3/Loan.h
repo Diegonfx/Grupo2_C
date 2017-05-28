@@ -17,6 +17,6 @@ struct loan {
 };
 
 Loan* newLoan(char* code, char* id ,Library* library1);
-void annihilateLoan(Loan* loan1);
+void destroyLoan(Loan *loan1);
 
 #endif //GRUPO2_C_LOAN_H

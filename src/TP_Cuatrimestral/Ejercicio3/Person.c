@@ -34,7 +34,7 @@ Student* newStudent(char* name, char* surname, char* email, int phone, int idStu
 
 }
 
-void annihilateStudent(Student* student1){
+void destroyStudent(Student *student1){
     free(student1->name);
     free(student1->surname);
     free(student1->email);
@@ -69,7 +69,7 @@ Professor* newProfessor(char* name, char* surname, char* email, int phone, int i
     return pro;
 }
 
-void annihilateProfessor(Professor* professor){
+void destroyProfessor(Professor *professor){
     free(professor->name);
     free(professor->surname);
     free(professor->email);

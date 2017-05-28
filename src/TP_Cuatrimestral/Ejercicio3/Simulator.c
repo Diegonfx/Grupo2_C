@@ -197,8 +197,8 @@ int main() {
                 addLoan(loan1 , library);
                 rentBookStudent(book2, library , student2);
                 free(code);
-                annihilateBook(book2);
-                annihilateStudent(student2);
+                destroyBook(book2);
+                destroyStudent(student2);
 
             case 6:
 
@@ -221,8 +221,8 @@ int main() {
 
                 returnBookStudent(book3 , library , student3);
                 free(codeStudent2);
-                annihilateBook(book3);
-                annihilateStudent(student3);
+                destroyBook(book3);
+                destroyStudent(student3);
 
             case 7:
 
@@ -246,8 +246,8 @@ int main() {
                 addLoan(loan2 , library);
                 rentMagazineStudent(magazine2, library , student3);
                 free(code);
-                annihilateMagazine(magazine2);
-                annihilateStudent(student3);
+                destroyMagazine(magazine2);
+                destroyStudent(student3);
 
             case 8:
 
@@ -269,8 +269,8 @@ int main() {
                 }
                 returnMagazineStudent(magazine3, library , student5);
                 free(codeStudent4);
-                annihilateBook(magazine3);
-                annihilateStudent(student5);
+                destroyBook(magazine3);
+                destroyStudent(student5);
 
             case 9:
 
@@ -294,8 +294,8 @@ int main() {
                 addLoan(loan4, library);
                 rentBookProfessor(book4, library , professor2);
                 free(codeProfessor2);
-                annihilateBook(book4);
-                annihilateProfessor(professor2);
+                destroyBook(book4);
+                destroyProfessor(professor2);
 
             case 10:
 
@@ -318,8 +318,8 @@ int main() {
 
                 returnBookProfessor(book5, library , professor3);
                 free(codeProfessor3);
-                annihilateBook(book5);
-                annihilateStudent(professor3);
+                destroyBook(book5);
+                destroyStudent(professor3);
 
 
 
@@ -345,8 +345,8 @@ int main() {
                 addLoan(loan6, library);
                 rentMagazineProfessor(magazine4, library , professor4);
                 free(codeProfessor4);
-                annihilateMagazine(magazine4);
-                annihilateProfessor(professor4);
+                destroyMagazine(magazine4);
+                destroyProfessor(professor4);
 
 
             case 12:
@@ -369,8 +369,8 @@ int main() {
                 }
                 returnMagazineProfessor(magazine5, library , professor5);
                 free(codeProfessor5);
-                annihilateBook(magazine5);
-                annihilateStudent(professor5);
+                destroyBook(magazine5);
+                destroyStudent(professor5);
 
             default:
                 printf("Please choose a value from 0 to 12!\n");

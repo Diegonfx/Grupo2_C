@@ -26,7 +26,7 @@ struct student {
 
 //Methods
 Student* newStudent(char* name, char* surname, char* email, int phone, int idStudent);
-void annihilateStudent(Student* student1);
+void destroyStudent(Student *student1);
 
 //PROFESSOR
 
@@ -46,7 +46,7 @@ struct professor {
 
 //Methods
 Professor* newProfessor(char* name, char* surname, char* email, int phone, int idProfessor);
-void annihilateProfessor(Professor* professor);
+void destroyProfessor(Professor *professor);
 
 
 #endif //GRUPO2_C_PERSON_H
