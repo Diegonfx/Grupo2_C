@@ -36,6 +36,8 @@ Manufacturer* newManufacturer(char* name, char* description, char* address, char
 
 }
 
+//Item* produceItem(Business* system1){}
+
 void annihilateManufacturer(Manufacturer* manufacturer1){
 
     free(manufacturer1->name);

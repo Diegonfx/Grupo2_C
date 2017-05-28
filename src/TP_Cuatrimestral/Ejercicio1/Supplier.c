@@ -34,6 +34,8 @@ Supplier* newSupplier(char* name, char* description, char* address, char* city, 
     return supplier;
 }
 
+//Item* supplyItems(int amount , Manufacturer* manufacturer1 , Business* system1){}
+
 void annihilateSupplier(Supplier* supplier){
 
     free(supplier->name);

@@ -6,21 +6,28 @@
 #include <memory.h>
 #include "Cart.h"
 
-Cart* newCart(char* id, float units){
+Cart* newCart(char* id, Item** items){
 
     Cart* result = malloc(sizeof(Cart));
 
     result->id = malloc(sizeof(char) * strlen(id));
 
     result->id = id;
-    result->total = units;
+    /*for (int i = 0; i < ; ++i) {
+        result->total += items[i];
+    }*/
+
 
     strcpy(result->id , id);
 
     return result;
 }
 
-void annihilateCart(Cart* cart1){
-    free(cart1->id);
-    free(cart1);
+Ticket* produceTicket(Cart* cart){
+    return newTicket(cart->id, cart->total);
+}
+
+void annihilateCart(Cart* cart){
+    free(cart->id);
+    free(cart);
 }

@@ -24,6 +24,8 @@ Catalogue* newCatalogue(char* id, char* name, int discount){
     return result;
 }
 
+//void addItemToCatalogue(Item* item){}
+
 void annihilateCatalogue(Catalogue* catalogue1){
     free(catalogue1->name);
     free(catalogue1->id);

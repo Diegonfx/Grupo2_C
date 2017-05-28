@@ -15,8 +15,8 @@ struct cart {
     float total;
 };
 
-Cart* newCart(char* id, float units);
-Ticket* produceTicket(Item* item1);
-void annihilateCart(Cart* cart1);
+Cart* newCart(char* id, Item** items);
+Ticket* produceTicket(Cart* cart);
+void annihilateCart(Cart* cart);
 
 #endif //GRUPO2_C_CART_H

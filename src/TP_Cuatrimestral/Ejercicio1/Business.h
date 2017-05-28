@@ -12,6 +12,7 @@
 typedef struct business Business;
 
 struct business {
+    char* name;
     Manufacturer** listManufacturers;
     Supplier** listSuppliers;
     Catalogue* catalogue;
