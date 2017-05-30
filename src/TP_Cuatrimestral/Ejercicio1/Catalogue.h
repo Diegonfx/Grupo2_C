@@ -17,7 +17,6 @@ struct catalogue {
 };
 
 Catalogue* newCatalogue(char* id, char* name, int discount);
-//void addItemToCatalogue(Item* item);
 void annihilateCatalogue(Catalogue* catalogue1);
 
 #endif //GRUPO2_C_CATALOGUE_H

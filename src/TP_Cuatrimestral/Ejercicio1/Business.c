@@ -28,6 +28,12 @@ void addItemToCatalogue(Item* manufacturer1 , Business* system1){}
 
 void askForSupplies(Supplier* supplier1 , Business* system1){}
 
+void removeManufacturer(Business* business1, char* manufacturerName){}
+
+void removeSupplier(Business* business1, char* supplierName){}
+
+void removeItemFromCatalogue(Business* business1, char* itemLabelID){}
+
 void freeBusiness(Business* system1){
     free(system1->name);
     free(system1->catalogue);
