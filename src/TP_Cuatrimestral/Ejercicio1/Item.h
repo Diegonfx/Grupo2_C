@@ -1,6 +1,7 @@
-//
-// Created by Diego Mancini on 19/5/17.
-//
+/**
+ * Declaration of an item.
+ * @authors Tomas Iturralde, Diego Mancini.
+ */
 
 #ifndef GRUPO2_C_ITEM_H
 #define GRUPO2_C_ITEM_H
@@ -17,6 +18,6 @@ struct item {
 };
 
 Item* newItem(char* name, char* model, float price , Label* label1);
-void annihilateItem(Item* item1);
+void destroyItem(Item* item1);
 
 #endif //GRUPO2_C_ITEM_H

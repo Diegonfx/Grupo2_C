@@ -1,19 +1,23 @@
-//
-// Created by Diego Mancini on 19/5/17.
-//
+/**
+ * Declaration of a lineCart.
+ * @authors Tomas Iturralde, Diego Mancini.
+ */
 
 #ifndef GRUPO2_C_LINECART_H
 #define GRUPO2_C_LINECART_H
+
+#include "Item.h"
 
 typedef struct lineCart LineCart;
 
 struct lineCart {
     char* id;
-    char* item;
     int units;
+    Item* item;
 };
 
-LineCart* newLineCart(char* id, char* item, int units);
-void annihilateLineCart(LineCart* lineCart1);
+LineCart* newLineCart(char* id, Item* item, int units);
+void generateLineCart(LineCart* lineCart1);
+void destroyLineCart(LineCart* lineCart1);
 
 #endif //GRUPO2_C_LINECART_H

@@ -1,6 +1,7 @@
-//
-// Created by Diego Mancini on 19/5/17.
-//
+/**
+ * Implementation of a cart.
+ * @authors Tomas Iturralde, Diego Mancini.
+ */
 
 #include <stdlib.h>
 #include <memory.h>
@@ -11,28 +12,66 @@ Cart* newCart(char* id){
     result->id = malloc(sizeof(char) * strlen(id));
     result->id = id;
     strcpy(result->id , id);
+    result->total = 0;
+    result->itemsOnCart = malloc(sizeof(LineCart*) * 10);
+    result->amountOfItemsOnCart = 0;
+    result->maxCapacity = 10;
 
     return result;
 }
 
-void addItemToCart(Item* item, Cart* cart){
+/**
+ * Method which enlarges the cart by doubling its size.
+ * @param cart to be enlarged.
+ */
+void cartGrow(Cart* cart){
+    cart->itemsOnCart = realloc(cart->itemsOnCart, sizeof(LineCart*) * (cart->maxCapacity*2));
+    cart->maxCapacity *= 2;
+}
 
+/**
+ * Adds an item to the cart.
+ * @param item to be added.
+ * @param cart which will receive an item.
+ */
+void addItemToCart(LineCart* item, Cart* cart){
+    if (cart->amountOfItemsOnCart == cart->maxCapacity)
+        cartGrow(cart);
+    cart->itemsOnCart[cart->amountOfItemsOnCart] = item;
     cart->amountOfItemsOnCart++;
 }
 
+/**
+ * Removes an item from the cart.
+ * @param cart which will lose an item.
+ * @param labelID the ID in the label from the item which will be removed.
+ */
 void removeItemFromCart(Cart* cart, char* labelID){
-
-    cart->amountOfItemsOnCart--;
+    for (int i = 0; i < cart->amountOfItemsOnCart; i++) {
+        if (cart->itemsOnCart[i]->item->label->id == labelID){
+            destroyLineCart(cart->itemsOnCart[i]);
+            for(int j = i; j < cart->amountOfItemsOnCart - 1; j++){
+                cart->itemsOnCart[j] = cart->itemsOnCart[j+1];
+            }
+            cart->amountOfItemsOnCart--;
+        }
+    }
 }
 
+/**
+ * Sums the prices of every item in the cart and creates a ticket.
+ * @param cart who will create the ticket based on the prices from its items' prices.
+ * @return a ticket with the total to pay.
+ */
 Ticket* produceTicket(Cart* cart){
     for (int i = 0; i < cart->amountOfItemsOnCart; ++i) {
-        //cart->total += cart->itemsOnCart
+        cart->total += cart->itemsOnCart[i]->item->price;
     }
-    return newTicket(cart->id, cart->total);
+    return newTicket(cart->id, cart->total, cart->amountOfItemsOnCart);
 }
 
-void annihilateCart(Cart* cart){
+void destroyCart(Cart* cart){
     free(cart->id);
+    free(cart->itemsOnCart);
     free(cart);
 }

@@ -1,26 +1,29 @@
-//
-// Created by Diego Mancini on 19/5/17.
-//
+/**
+ * Declaration of a cart.
+ * @authors Tomas Iturralde, Diego Mancini.
+ */
 
 #ifndef GRUPO2_C_CART_H
 #define GRUPO2_C_CART_H
 
 #include "Ticket.h"
-#include "Item.h"
+#include "LineCart.h"
 
 typedef struct cart Cart;
 
 struct cart {
     char* id;
     float total;
-    Item** itemsOnCart;
+    LineCart** itemsOnCart;
     int amountOfItemsOnCart;
+    int maxCapacity;
 };
 
 Cart* newCart(char* id);
-void addItemToCart(Item* item, Cart* cart);
+void cartGrow(Cart* cart);
+void addItemToCart(LineCart* item, Cart* cart);
 void removeItemFromCart(Cart* cart, char* labelID);
 Ticket* produceTicket(Cart* cart);
-void annihilateCart(Cart* cart);
+void destroyCart(Cart* cart);
 
 #endif //GRUPO2_C_CART_H

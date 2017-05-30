@@ -1,6 +1,7 @@
-//
-// Created by Diego Mancini on 19/5/17.
-//
+/**
+ * Implementation of a manufacturer.
+ * @authors Tomas Iturralde, Diego Mancini.
+ */
 
 #include <stdlib.h>
 #include <memory.h>
@@ -36,9 +37,14 @@ Manufacturer* newManufacturer(char* name, char* description, char* address, char
 
 }
 
-//Item* produceItem(Business* system1){}
+/**
+ * Make an item.
+ * @param system1
+ * @return
+ */
+Item* produceItem(Business* system1){}
 
-void annihilateManufacturer(Manufacturer* manufacturer1){
+void destroyManufacturer(Manufacturer* manufacturer1){
 
     free(manufacturer1->name);
     free(manufacturer1->description);

@@ -1,19 +1,26 @@
-//
-// Created by Diego Mancini on 19/5/17.
-//
+/**
+ * Declaration of a ticket.
+ * @authors Tomas Iturralde, Diego Mancini.
+ */
 
 #ifndef GRUPO2_C_TICKET_H
 #define GRUPO2_C_TICKET_H
+
+#include "LineTicket.h"
 
 typedef struct ticket Ticket;
 
 struct ticket{
     char* id;
     float toPay;
+    LineTicket** linesOnTicket;
+    int amountOfLinesOnTicket;
+
 };
 
-Ticket* newTicket(char* id , float toPay);
-void annihilateTicket(Ticket* ticket1);
+Ticket* newTicket(char* id , float toPay, int amountOfLinesOnTicket);
+void printTicket(Ticket* ticket1);
+void destroyTicket1(Ticket* ticket1);
 
 
 #endif //GRUPO2_C_TICKET_H

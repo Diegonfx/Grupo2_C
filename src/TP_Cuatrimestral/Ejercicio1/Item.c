@@ -1,6 +1,7 @@
-//
-// Created by Diego Mancini on 19/5/17.
-//
+/**
+ * Implementation of an item.
+ * @authors Tomas Iturralde, Diego Mancini.
+ */
 
 #include <stdlib.h>
 #include <memory.h>
@@ -25,7 +26,7 @@ Item* newItem(char* name, char* model, float price , Label* label1){
     return result;
 }
 
-void annihilateItem(Item* item1){
+void destroyItem(Item* item1){
     free(item1->name);
     free(item1->model);
     free(item1->label);

@@ -1,6 +1,7 @@
-//
-// Created by Diego Mancini on 19/5/17.
-//
+/**
+ * Implementation of a label.
+ * @authors Tomas Iturralde, Diego Mancini.
+ */
 
 #include <stdlib.h>
 #include <memory.h>
@@ -19,7 +20,7 @@ Label* newLabel(char* id, char* name){
     return result;
 }
 
-void annihilateLabel(Label* label1){
+void destroyLabel(Label* label1){
     free(label1->name);
     free(label1->id);
     free(label1);

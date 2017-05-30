@@ -1,6 +1,7 @@
-//
-// Created by Diego Mancini on 19/5/17.
-//
+/**
+ * Declaration of a catalogue.
+ * @authors Tomas Iturralde, Diego Mancini.
+ */
 
 #ifndef GRUPO2_C_CATALOGUE_H
 #define GRUPO2_C_CATALOGUE_H
@@ -17,6 +18,6 @@ struct catalogue {
 };
 
 Catalogue* newCatalogue(char* id, char* name, int discount);
-void annihilateCatalogue(Catalogue* catalogue1);
+void destroyCatalogue(Catalogue* catalogue1);
 
 #endif //GRUPO2_C_CATALOGUE_H

@@ -1,19 +1,23 @@
-//
-// Created by Diego Mancini on 19/5/17.
-//
+/**
+ * Declaration of a lineTicket.
+ * @authors Tomas Iturralde, Diego Mancini.
+ */
 
 #ifndef GRUPO2_C_LINETICKET_H
 #define GRUPO2_C_LINETICKET_H
+
+#include "Item.h"
 
 typedef struct lineTicket LineTicket;
 
 struct lineTicket {
     char* id;
-    char* item;
     int units;
+    Item* item;
 };
 
-LineTicket* newLineTicket(char* id, char* item, int units);
-void annihilateLineTicket(LineTicket* lineTicket1);
+LineTicket* newLineTicket(char* id, Item* item, int units);
+void generateLineTicket(LineTicket* lineTicket1);
+void destroyLineTicket(LineTicket* lineTicket1);
 
 #endif //GRUPO2_C_LINETICKET_H

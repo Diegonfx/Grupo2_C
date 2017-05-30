@@ -1,6 +1,7 @@
-//
-// Created by Diego Mancini on 19/5/17.
-//
+/**
+ * Implementation of a catalogue.
+ * @authors Tomas Iturralde, Diego Mancini.
+ */
 
 #include <stdlib.h>
 #include <memory.h>
@@ -24,7 +25,7 @@ Catalogue* newCatalogue(char* id, char* name, int discount){
     return result;
 }
 
-void annihilateCatalogue(Catalogue* catalogue1){
+void destroyCatalogue(Catalogue* catalogue1){
     free(catalogue1->name);
     free(catalogue1->id);
     free(catalogue1->listItems);

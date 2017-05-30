@@ -1,7 +1,7 @@
-//
-// Created by Diego Mancini on 19/5/17.
-//
-
+/**
+ * Declaration of a label.
+ * @authors Tomas Iturralde, Diego Mancini.
+ */
 #ifndef GRUPO2_C_LABEL_H
 #define GRUPO2_C_LABEL_H
 
@@ -13,7 +13,7 @@ struct label {
 };
 
 Label* newLabel(char* id, char* name);
-void annihilateLabel(Label* label1);
+void destroyLabel(Label* label1);
 
 
 #endif //GRUPO2_C_LABEL_H
