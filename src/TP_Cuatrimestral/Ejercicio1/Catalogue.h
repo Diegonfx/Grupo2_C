@@ -15,9 +15,12 @@ struct catalogue {
     char* name;
     int discount;
     Item** listItems;
+    int amountOfItems;
+    int maxCapacityOfItems;
 };
 
-Catalogue* newCatalogue(char* id, char* name, int discount);
+Catalogue* newCatalogue(char* id, char* name);
+void growListOfItems(Catalogue* catalogue1);
 void destroyCatalogue(Catalogue* catalogue1);
 
 #endif //GRUPO2_C_CATALOGUE_H

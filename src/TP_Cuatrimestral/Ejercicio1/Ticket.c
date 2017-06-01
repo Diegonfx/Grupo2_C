@@ -22,6 +22,10 @@ Ticket* newTicket(char* id , float toPay, int amountOfLinesOnTicket){
     return ticket1;
 }
 
+/**
+ * prints the ticket.
+ * @param ticket1 to be printed.
+ */
 void printTicket(Ticket* ticket1){
     printf("Ticket:  %s", ticket1->id);
     for (int i = 0; i < ticket1->amountOfLinesOnTicket; i++) {
@@ -33,6 +37,9 @@ void printTicket(Ticket* ticket1){
 
 void destroyTicket1(Ticket* ticket){
     free(ticket->id);
+    for (int i = 0; i < ticket->amountOfLinesOnTicket; ++i) {
+        destroyLineTicket(ticket->linesOnTicket[i]);
+    }
     free(ticket->linesOnTicket);
     free(ticket);
 }

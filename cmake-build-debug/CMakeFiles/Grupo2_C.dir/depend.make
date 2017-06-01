@@ -30,6 +30,8 @@ CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Cart.c.obj: ../src/TP_Cu
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Cart.c.obj: ../src/TP_Cuatrimestral/Ejercicio1/Cart.h
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Cart.c.obj: ../src/TP_Cuatrimestral/Ejercicio1/Item.h
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Cart.c.obj: ../src/TP_Cuatrimestral/Ejercicio1/Label.h
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Cart.c.obj: ../src/TP_Cuatrimestral/Ejercicio1/LineCart.h
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Cart.c.obj: ../src/TP_Cuatrimestral/Ejercicio1/LineTicket.h
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Cart.c.obj: ../src/TP_Cuatrimestral/Ejercicio1/Ticket.h
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Catalogue.c.obj: ../src/TP_Cuatrimestral/Ejercicio1/Catalogue.c
@@ -44,9 +46,13 @@ CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Item.c.obj: ../src/TP_Cu
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Label.c.obj: ../src/TP_Cuatrimestral/Ejercicio1/Label.c
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Label.c.obj: ../src/TP_Cuatrimestral/Ejercicio1/Label.h
 
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/LineCart.c.obj: ../src/TP_Cuatrimestral/Ejercicio1/Item.h
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/LineCart.c.obj: ../src/TP_Cuatrimestral/Ejercicio1/Label.h
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/LineCart.c.obj: ../src/TP_Cuatrimestral/Ejercicio1/LineCart.c
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/LineCart.c.obj: ../src/TP_Cuatrimestral/Ejercicio1/LineCart.h
 
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/LineTicket.c.obj: ../src/TP_Cuatrimestral/Ejercicio1/Item.h
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/LineTicket.c.obj: ../src/TP_Cuatrimestral/Ejercicio1/Label.h
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/LineTicket.c.obj: ../src/TP_Cuatrimestral/Ejercicio1/LineTicket.c
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/LineTicket.c.obj: ../src/TP_Cuatrimestral/Ejercicio1/LineTicket.h
 
@@ -67,6 +73,9 @@ CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Supplier.c.obj: ../src/T
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Supplier.c.obj: ../src/TP_Cuatrimestral/Ejercicio1/Supplier.c
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Supplier.c.obj: ../src/TP_Cuatrimestral/Ejercicio1/Supplier.h
 
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Ticket.c.obj: ../src/TP_Cuatrimestral/Ejercicio1/Item.h
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Ticket.c.obj: ../src/TP_Cuatrimestral/Ejercicio1/Label.h
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Ticket.c.obj: ../src/TP_Cuatrimestral/Ejercicio1/LineTicket.h
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Ticket.c.obj: ../src/TP_Cuatrimestral/Ejercicio1/Ticket.c
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Ticket.c.obj: ../src/TP_Cuatrimestral/Ejercicio1/Ticket.h
 
@@ -137,6 +146,9 @@ CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Reservation.c.obj: ../sr
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Room.c.obj: ../src/TP_Cuatrimestral/Ejercicio4/Room.c
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Room.c.obj: ../src/TP_Cuatrimestral/Ejercicio4/Room.h
 
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Ticket.c.obj: ../src/TP_Cuatrimestral/Ejercicio1/Item.h
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Ticket.c.obj: ../src/TP_Cuatrimestral/Ejercicio1/Label.h
+CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Ticket.c.obj: ../src/TP_Cuatrimestral/Ejercicio1/LineTicket.h
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Ticket.c.obj: ../src/TP_Cuatrimestral/Ejercicio1/Ticket.h
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Ticket.c.obj: ../src/TP_Cuatrimestral/Ejercicio4/Ticket.c
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Ticket.c.obj: ../src/TP_Cuatrimestral/Ejercicio4/Ticket.h

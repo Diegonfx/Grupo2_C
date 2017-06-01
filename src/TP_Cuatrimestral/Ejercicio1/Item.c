@@ -29,6 +29,6 @@ Item* newItem(char* name, char* model, float price , Label* label1){
 void destroyItem(Item* item1){
     free(item1->name);
     free(item1->model);
-    free(item1->label);
+    destroyLabel(item1->label);
     free(item1);
 }

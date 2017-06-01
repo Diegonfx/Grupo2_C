@@ -17,6 +17,8 @@ Supplier* newSupplier(char* name, char* description, char* address, char* city, 
     supplier->city = malloc(sizeof(char) * strlen(city));
     supplier->phone = malloc(sizeof(char) * strlen(phone));
     supplier->website = malloc(sizeof(char) * strlen(website));
+    supplier->maxAmountOfManufacturers = 10;
+    supplier->listOfManufacturers = malloc(sizeof(Manufacturer*) * supplier->maxAmountOfManufacturers);
 
     supplier->name = name;
     supplier->description = description;
@@ -24,6 +26,7 @@ Supplier* newSupplier(char* name, char* description, char* address, char* city, 
     supplier->city = city;
     supplier->phone = phone;
     supplier->website = website;
+    supplier->amountOfManufacturers = 0;
 
     strcpy(supplier->name , name);
     strcpy(supplier->description , description);
@@ -36,21 +39,52 @@ Supplier* newSupplier(char* name, char* description, char* address, char* city, 
 }
 
 /**
- * Supplies items created by a manufacturer to a business.
- * @param amount of items to be supplied.
- * @param manufacturer1 manufacturer who makes the items.
- * @param system1 business who asked and will receive the items.
- * @return pointer to the items supplied.
+ * Expands the capacity of manufacturers allowed in a supplier.
+ * @param supplier1 whose manufacturers' list will be expanded.
  */
-Item* supplyItems(int amount , Manufacturer* manufacturer1 , Business* system1){}
+void growListOfManufacturers(Supplier* supplier1){
+    supplier1->listOfManufacturers = realloc(supplier1->listOfManufacturers, sizeof(Manufacturer*) * (supplier1->maxAmountOfManufacturers*2));
+    supplier1->maxAmountOfManufacturers *= 2;
+}
+
+/**
+ * Adds a manufacturer to the supplier's list.
+ * @param manufacturer1 to be added.
+ * @param supplier1 supplier who will add a manufacturer.
+ */
+void addManufacturer(Manufacturer* manufacturer1 , Supplier* supplier1){
+    if (supplier1->amountOfManufacturers == supplier1->maxAmountOfManufacturers) growListOfManufacturers(supplier1);
+    supplier1->listOfManufacturers[supplier1->amountOfManufacturers] = manufacturer1;
+    supplier1->amountOfManufacturers++;
+}
+
+/**
+ * removes a manufacturer from the supplier's list.
+ * @param supplier1 who will remove a manufacturer.
+ * @param manufacturerName name of the manufacturer to be removed.
+ */
+void removeManufacturer(Supplier* supplier1, char* manufacturerName){
+    for (int i = 0; i < supplier1->amountOfManufacturers; i++) {
+        if (supplier1->listOfManufacturers[i]->name == manufacturerName){
+            destroyManufacturer(supplier1->listOfManufacturers[i]);
+            for(int j = i; j < supplier1->amountOfManufacturers - 1; j++){
+                supplier1->listOfManufacturers[j] = supplier1->listOfManufacturers[j+1];
+            }
+            supplier1->amountOfManufacturers--;
+        }
+    }
+}
 
 void destroySupplier(Supplier* supplier){
-
     free(supplier->name);
     free(supplier->description);
     free(supplier->address);
     free(supplier->city);
     free(supplier->phone);
     free(supplier->website);
+    for (int i = 0; i < supplier->maxAmountOfManufacturers; ++i) {
+        destroyManufacturer(supplier->listOfManufacturers[i]);
+    }
+    free(supplier->listOfManufacturers);
     free(supplier);
 }

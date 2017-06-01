@@ -24,12 +24,16 @@ LineTicket* newLineTicket(char* id, Item* item, int units){
     return res;
 }
 
+/**
+ * prints the line ticket.
+ * @param lineTicket1 to be printed.
+ */
 void generateLineTicket(LineTicket* lineTicket1){
     printf("Item: %s, amount: %d, unitary price: %.2f" ,lineTicket1->item->name, lineTicket1->units, lineTicket1->item->price);
 }
 
 void destroyLineTicket(LineTicket* lineTicket1){
     free(lineTicket1->id);
-    free(lineTicket1->item);
+    destroyItem(lineTicket1->item);
     free(lineTicket1);
 }

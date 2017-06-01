@@ -24,12 +24,17 @@ LineCart* newLineCart(char* id, Item* item, int units){
     return res;
 
 }
+
+/**
+ * prints the line cart.
+ * @param lineCart1 to be printed.
+ */
 void generateLineCart(LineCart* lineCart1){
     printf("Item: %s, amount: %d, unitary price: %.2f" ,lineCart1->item->name, lineCart1->units, lineCart1->item->price);
 }
 
 void destroyLineCart(LineCart* lineCart1){
     free(lineCart1->id);
-    free(lineCart1->item);
+    destroyItem(lineCart1->item);
     free(lineCart1);
 }

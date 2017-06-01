@@ -72,6 +72,9 @@ Ticket* produceTicket(Cart* cart){
 
 void destroyCart(Cart* cart){
     free(cart->id);
+    for (int i = 0; i < cart->maxCapacity; ++i) {
+        destroyLineCart(cart->itemsOnCart[i]);
+    }
     free(cart->itemsOnCart);
     free(cart);
 }
