@@ -1,23 +1,24 @@
-//
-// Created by Diego Mancini on 19/5/17.
-//
+/**
+ * Implementation of a Registered user.
+ * @authors Tomas Iturralde, Diego Mancini
+ */
 
 #include <stdlib.h>
 #include <memory.h>
 #include "RegisteredUser.h"
 
-RegisteredUser* newRegisteredUser(char* name, char* dni, char* address, char* phone, char* town , char* city, char* country, char* postalCode, char** role){
+RegisteredUser* newRegisteredUser(char* name, char* dni, char* address, char* phone, char* town , char* city, char* country, char* postalCode){
 
     RegisteredUser* registeredUser = malloc(sizeof(RegisteredUser));
 
-    registeredUser->name = malloc(sizeof(char) * strlen(name));
-    registeredUser->dni  = malloc(sizeof(char) * strlen(dni));
-    registeredUser->address = malloc(sizeof(char) * strlen(address));
-    registeredUser->phone = malloc(sizeof(char) * strlen(phone));
-    registeredUser->town = malloc(sizeof(char) * strlen(town));
-    registeredUser->city = malloc(sizeof(char) * strlen(city));
-    registeredUser->country = malloc(sizeof(char) * strlen(country));
-    registeredUser->postalCode = malloc(sizeof(char) * strlen(postalCode));
+    registeredUser->name = malloc(sizeof(char) * strlen(name)+1);
+    registeredUser->dni  = malloc(sizeof(char) * strlen(dni)+1);
+    registeredUser->address = malloc(sizeof(char) * strlen(address)+1);
+    registeredUser->phone = malloc(sizeof(char) * strlen(phone)+1);
+    registeredUser->town = malloc(sizeof(char) * strlen(town))+1;
+    registeredUser->city = malloc(sizeof(char) * strlen(city))+1;
+    registeredUser->country = malloc(sizeof(char) * strlen(country)+1);
+    registeredUser->postalCode = malloc(sizeof(char) * strlen(postalCode)+1);
     registeredUser->role = malloc(sizeof(char*) * 2);
 
     registeredUser->name = name;
@@ -44,7 +45,7 @@ RegisteredUser* newRegisteredUser(char* name, char* dni, char* address, char* ph
 
 }
 
-void annihilateRegisteredUser(RegisteredUser* registeredUser1){
+void destroyRegisteredUser(RegisteredUser* registeredUser1){
 
     free(registeredUser1->name);
     free(registeredUser1->address);

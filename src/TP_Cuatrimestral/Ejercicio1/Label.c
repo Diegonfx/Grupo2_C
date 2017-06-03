@@ -11,8 +11,8 @@ Label* newLabel(char* id, char* name){
 
     Label* result = malloc(sizeof(Label));
 
-    result->name = malloc(sizeof(char) * strlen(name));
-    result->id = malloc(sizeof(char) * strlen(id));
+    result->name = malloc(sizeof(char) * strlen(name)+1);
+    result->id = malloc(sizeof(char) * strlen(id)+1);
 
     strcpy(result->name , name);
     strcpy(result->id , id);

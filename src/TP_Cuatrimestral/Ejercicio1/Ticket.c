@@ -11,7 +11,7 @@
 Ticket* newTicket(char* id , float toPay, int amountOfLinesOnTicket){
     Ticket* ticket1 = malloc(sizeof(Ticket));
 
-    ticket1->id = malloc(sizeof(char) * strlen(id));
+    ticket1->id = malloc(sizeof(char) * strlen(id)+1);
     ticket1->id = id;
     strcpy(ticket1->id , id);
     ticket1->toPay = toPay;

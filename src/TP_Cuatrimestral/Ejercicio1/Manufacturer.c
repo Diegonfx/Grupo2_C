@@ -11,12 +11,12 @@ Manufacturer* newManufacturer(char* name, char* description, char* address, char
 
     Manufacturer* manufacturer1 = malloc(sizeof(Manufacturer));
 
-    manufacturer1->name = malloc(sizeof(char) * strlen(name));
-    manufacturer1->description  = malloc(sizeof(char) * strlen(description));
-    manufacturer1->address = malloc(sizeof(char) * strlen(address));
-    manufacturer1->city = malloc(sizeof(char) * strlen(city));
-    manufacturer1->phone = malloc(sizeof(char) * strlen(phone));
-    manufacturer1->website = malloc(sizeof(char) * strlen(website));
+    manufacturer1->name = malloc(sizeof(char) * strlen(name)+1);
+    manufacturer1->description  = malloc(sizeof(char) * strlen(description)+1);
+    manufacturer1->address = malloc(sizeof(char) * strlen(address)+1);
+    manufacturer1->city = malloc(sizeof(char) * strlen(city)+1);
+    manufacturer1->phone = malloc(sizeof(char) * strlen(phone)+1);
+    manufacturer1->website = malloc(sizeof(char) * strlen(website)+1);
     manufacturer1->maxCapacityOfItems = 10;
     manufacturer1->listItems = malloc(sizeof(Item*) * manufacturer1->maxCapacityOfItems);
 

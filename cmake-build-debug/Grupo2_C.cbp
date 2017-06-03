@@ -166,18 +166,6 @@
 		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Ticket.h">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Accessory.c">
-			<Option target="Grupo2_C"/>
-		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Accessory.h">
-			<Option target="Grupo2_C"/>
-		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Camera.c">
-			<Option target="Grupo2_C"/>
-		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Camera.h">
-			<Option target="Grupo2_C"/>
-		</Unit>
 		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/LineSales.c">
 			<Option target="Grupo2_C"/>
 		</Unit>

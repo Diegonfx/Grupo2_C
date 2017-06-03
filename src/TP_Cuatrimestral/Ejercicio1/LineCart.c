@@ -12,7 +12,7 @@ LineCart* newLineCart(char* id, Item* item, int units){
 
     LineCart* res = malloc(sizeof(LineCart));
 
-    res->id = malloc(sizeof(char) * strlen(id));
+    res->id = malloc(sizeof(char) * strlen(id)+1);
     res->item= malloc(sizeof(Item));
 
     res->id = id;

@@ -11,8 +11,8 @@ Item* newItem(char* name, char* model, float price , Label* label1){
 
     Item* result = malloc(sizeof(Item));
 
-    result->name = malloc(sizeof(char) * strlen(name));
-    result->model = malloc(sizeof(char) * strlen(model));
+    result->name = malloc(sizeof(char) * strlen(name)+1);
+    result->model = malloc(sizeof(char) * strlen(model)+1);
     result->label = malloc(sizeof(Label));
 
     result->name = name;

@@ -9,7 +9,7 @@
 
 Cart* newCart(char* id){
     Cart* result = malloc(sizeof(Cart));
-    result->id = malloc(sizeof(char) * strlen(id));
+    result->id = malloc(sizeof(char) * strlen(id)+1);
     result->id = id;
     strcpy(result->id , id);
     result->total = 0;

@@ -1,22 +1,29 @@
-//
-// Created by Diego Mancini on 19/5/17.
-//
+/**
+ * Declaration of a sale.
+ * @authors Tomas Iturralde, Diego Mancini
+ */
 
 #ifndef GRUPO2_C_SALES_H
 #define GRUPO2_C_SALES_H
 
-#include <sys/_types/_time_t.h>
+#include "LineSales.h"
 
 typedef struct sales Sales;
 
 struct sales {
     char* code;
     time_t date;
-    int pvpTotal;
+    int totalPrice;
     int discount;
+    LineSales** listOfLineSales;
+    int amountOfLines;
+    int maxAmountOfLines;
 };
 
-Sales* newSales(char* code, time_t date,  int pvpTotal , int discount);
-void annihilateSales(Sales* sales1);
+Sales* newSales(char* code, time_t date, int discount);
+void salesGrow(Sales* sales1);
+void addItemToSale(LineSales* product, Sales* sales1, char* productType);
+void removeItemFromSale(Sales* sales1, char* productName);
+void destroySales(Sales* sales1);
 
 #endif //GRUPO2_C_SALES_H

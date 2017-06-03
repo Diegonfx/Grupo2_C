@@ -19,8 +19,6 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Manufacturer.c" "C:/Users/Tomas/CLionProjects/Grupo2_C/cmake-build-debug/CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Manufacturer.c.obj"
   "C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Supplier.c" "C:/Users/Tomas/CLionProjects/Grupo2_C/cmake-build-debug/CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Supplier.c.obj"
   "C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Ticket.c" "C:/Users/Tomas/CLionProjects/Grupo2_C/cmake-build-debug/CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Ticket.c.obj"
-  "C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Accessory.c" "C:/Users/Tomas/CLionProjects/Grupo2_C/cmake-build-debug/CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.obj"
-  "C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Camera.c" "C:/Users/Tomas/CLionProjects/Grupo2_C/cmake-build-debug/CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.obj"
   "C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/LineSales.c" "C:/Users/Tomas/CLionProjects/Grupo2_C/cmake-build-debug/CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/LineSales.c.obj"
   "C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Producer.c" "C:/Users/Tomas/CLionProjects/Grupo2_C/cmake-build-debug/CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Producer.c.obj"
   "C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Product.c" "C:/Users/Tomas/CLionProjects/Grupo2_C/cmake-build-debug/CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Product.c.obj"

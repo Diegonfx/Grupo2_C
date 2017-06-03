@@ -11,12 +11,12 @@ Supplier* newSupplier(char* name, char* description, char* address, char* city, 
 
     Supplier* supplier = malloc(sizeof(Supplier));
 
-    supplier->name = malloc(sizeof(char) * strlen(name));
-    supplier->description  = malloc(sizeof(char) * strlen(description));
-    supplier->address = malloc(sizeof(char) * strlen(address));
-    supplier->city = malloc(sizeof(char) * strlen(city));
-    supplier->phone = malloc(sizeof(char) * strlen(phone));
-    supplier->website = malloc(sizeof(char) * strlen(website));
+    supplier->name = malloc(sizeof(char) * strlen(name)+1);
+    supplier->description  = malloc(sizeof(char) * strlen(description)+1);
+    supplier->address = malloc(sizeof(char) * strlen(address)+1);
+    supplier->city = malloc(sizeof(char) * strlen(city)+1);
+    supplier->phone = malloc(sizeof(char) * strlen(phone)+1);
+    supplier->website = malloc(sizeof(char) * strlen(website)+1);
     supplier->maxAmountOfManufacturers = 10;
     supplier->listOfManufacturers = malloc(sizeof(Manufacturer*) * supplier->maxAmountOfManufacturers);
 

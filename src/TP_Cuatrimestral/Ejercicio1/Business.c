@@ -10,7 +10,7 @@
 Business* newBusiness(char* name , Catalogue* catalogue){
     Business* business1 = malloc(sizeof(Business));
 
-    business1->name = malloc(sizeof(char) * strlen(name));
+    business1->name = malloc(sizeof(char) * strlen(name)+1);
     business1->catalogue = malloc(sizeof(Catalogue));
     business1->maxCapacityOfSuppliers = 10;
     business1->listSuppliers = malloc(sizeof(Supplier*) * business1->maxCapacityOfSuppliers);
@@ -57,10 +57,10 @@ void addItemToCatalogue(Item* item1 , Business* system1){
 
 /**
  * Ask a supplier for more items.
- * @param supplier1 supplier who will supply more items.
+ * @param supplierName supplier who will supply more items.
  * @param system1 business who will receive the items.
- * @param manufacturerName
- * @param amountOfItems
+ * @param manufacturerName name of the manufacturer inside the chosen supplier to produce the items.
+ * @param amountOfItems to be supplied to the business.
  */
 void askForSupplies(char* supplierName , Business* system1, char* manufacturerName, int amountOfItems){
     for (int i = 0; i < system1->amountOfSuppliers; ++i) {

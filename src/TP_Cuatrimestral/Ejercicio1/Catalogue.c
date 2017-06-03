@@ -11,8 +11,8 @@ Catalogue* newCatalogue(char* id, char* name){
 
     Catalogue* result = malloc(sizeof(Catalogue));
 
-    result->id = malloc(sizeof(char) * strlen(id));
-    result->name = malloc(sizeof(char) * strlen(name));
+    result->id = malloc(sizeof(char) * strlen(id)+1);
+    result->name = malloc(sizeof(char) * strlen(name)+1);
     result->maxCapacityOfItems = 10;
     result->listItems = malloc(sizeof(Item) * result->maxCapacityOfItems);
 

@@ -608,33 +608,9 @@ CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Producer.c.obj.provides:
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Producer.c.obj.provides.build: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Producer.c.obj
 
 
-CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.obj: CMakeFiles/Grupo2_C.dir/flags.make
-CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.obj: ../src/TP_Cuatrimestral/Ejercicio2/Camera.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tomas\CLionProjects\Grupo2_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.obj"
-	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Grupo2_C.dir\src\TP_Cuatrimestral\Ejercicio2\Camera.c.obj   -c C:\Users\Tomas\CLionProjects\Grupo2_C\src\TP_Cuatrimestral\Ejercicio2\Camera.c
-
-CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.i"
-	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tomas\CLionProjects\Grupo2_C\src\TP_Cuatrimestral\Ejercicio2\Camera.c > CMakeFiles\Grupo2_C.dir\src\TP_Cuatrimestral\Ejercicio2\Camera.c.i
-
-CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.s"
-	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tomas\CLionProjects\Grupo2_C\src\TP_Cuatrimestral\Ejercicio2\Camera.c -o CMakeFiles\Grupo2_C.dir\src\TP_Cuatrimestral\Ejercicio2\Camera.c.s
-
-CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.obj.requires:
-
-.PHONY : CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.obj.requires
-
-CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.obj.provides: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.obj.requires
-	$(MAKE) -f CMakeFiles\Grupo2_C.dir\build.make CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.obj.provides.build
-.PHONY : CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.obj.provides
-
-CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.obj.provides.build: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.obj
-
-
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Supplier.c.obj: CMakeFiles/Grupo2_C.dir/flags.make
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Supplier.c.obj: ../src/TP_Cuatrimestral/Ejercicio2/Supplier.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tomas\CLionProjects\Grupo2_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Supplier.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tomas\CLionProjects\Grupo2_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Supplier.c.obj"
 	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Grupo2_C.dir\src\TP_Cuatrimestral\Ejercicio2\Supplier.c.obj   -c C:\Users\Tomas\CLionProjects\Grupo2_C\src\TP_Cuatrimestral\Ejercicio2\Supplier.c
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Supplier.c.i: cmake_force
@@ -658,7 +634,7 @@ CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Supplier.c.obj.provides.
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Room.c.obj: CMakeFiles/Grupo2_C.dir/flags.make
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Room.c.obj: ../src/TP_Cuatrimestral/Ejercicio4/Room.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tomas\CLionProjects\Grupo2_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Room.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tomas\CLionProjects\Grupo2_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Room.c.obj"
 	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Grupo2_C.dir\src\TP_Cuatrimestral\Ejercicio4\Room.c.obj   -c C:\Users\Tomas\CLionProjects\Grupo2_C\src\TP_Cuatrimestral\Ejercicio4\Room.c
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Room.c.i: cmake_force
@@ -682,7 +658,7 @@ CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Room.c.obj.provides.buil
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Reservation.c.obj: CMakeFiles/Grupo2_C.dir/flags.make
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Reservation.c.obj: ../src/TP_Cuatrimestral/Ejercicio4/Reservation.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tomas\CLionProjects\Grupo2_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Reservation.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tomas\CLionProjects\Grupo2_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Reservation.c.obj"
 	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Grupo2_C.dir\src\TP_Cuatrimestral\Ejercicio4\Reservation.c.obj   -c C:\Users\Tomas\CLionProjects\Grupo2_C\src\TP_Cuatrimestral\Ejercicio4\Reservation.c
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Reservation.c.i: cmake_force
@@ -706,7 +682,7 @@ CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Reservation.c.obj.provid
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Ticket.c.obj: CMakeFiles/Grupo2_C.dir/flags.make
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Ticket.c.obj: ../src/TP_Cuatrimestral/Ejercicio4/Ticket.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tomas\CLionProjects\Grupo2_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Ticket.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tomas\CLionProjects\Grupo2_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Ticket.c.obj"
 	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Grupo2_C.dir\src\TP_Cuatrimestral\Ejercicio4\Ticket.c.obj   -c C:\Users\Tomas\CLionProjects\Grupo2_C\src\TP_Cuatrimestral\Ejercicio4\Ticket.c
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Ticket.c.i: cmake_force
@@ -730,7 +706,7 @@ CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Ticket.c.obj.provides.bu
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Client.c.obj: CMakeFiles/Grupo2_C.dir/flags.make
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Client.c.obj: ../src/TP_Cuatrimestral/Ejercicio5/Client.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tomas\CLionProjects\Grupo2_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Client.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tomas\CLionProjects\Grupo2_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Client.c.obj"
 	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Grupo2_C.dir\src\TP_Cuatrimestral\Ejercicio5\Client.c.obj   -c C:\Users\Tomas\CLionProjects\Grupo2_C\src\TP_Cuatrimestral\Ejercicio5\Client.c
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Client.c.i: cmake_force
@@ -754,7 +730,7 @@ CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Client.c.obj.provides.bu
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Administrator.c.obj: CMakeFiles/Grupo2_C.dir/flags.make
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Administrator.c.obj: ../src/TP_Cuatrimestral/Ejercicio5/Administrator.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tomas\CLionProjects\Grupo2_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Administrator.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tomas\CLionProjects\Grupo2_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Administrator.c.obj"
 	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Grupo2_C.dir\src\TP_Cuatrimestral\Ejercicio5\Administrator.c.obj   -c C:\Users\Tomas\CLionProjects\Grupo2_C\src\TP_Cuatrimestral\Ejercicio5\Administrator.c
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Administrator.c.i: cmake_force
@@ -778,7 +754,7 @@ CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Administrator.c.obj.prov
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/License.c.obj: CMakeFiles/Grupo2_C.dir/flags.make
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/License.c.obj: ../src/TP_Cuatrimestral/Ejercicio5/License.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tomas\CLionProjects\Grupo2_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/License.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tomas\CLionProjects\Grupo2_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/License.c.obj"
 	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Grupo2_C.dir\src\TP_Cuatrimestral\Ejercicio5\License.c.obj   -c C:\Users\Tomas\CLionProjects\Grupo2_C\src\TP_Cuatrimestral\Ejercicio5\License.c
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/License.c.i: cmake_force
@@ -802,7 +778,7 @@ CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/License.c.obj.provides.b
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Rental.c.obj: CMakeFiles/Grupo2_C.dir/flags.make
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Rental.c.obj: ../src/TP_Cuatrimestral/Ejercicio5/Rental.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tomas\CLionProjects\Grupo2_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Rental.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tomas\CLionProjects\Grupo2_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Rental.c.obj"
 	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Grupo2_C.dir\src\TP_Cuatrimestral\Ejercicio5\Rental.c.obj   -c C:\Users\Tomas\CLionProjects\Grupo2_C\src\TP_Cuatrimestral\Ejercicio5\Rental.c
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Rental.c.i: cmake_force
@@ -826,7 +802,7 @@ CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Rental.c.obj.provides.bu
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Excedent.c.obj: CMakeFiles/Grupo2_C.dir/flags.make
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Excedent.c.obj: ../src/TP_Cuatrimestral/Ejercicio5/Excedent.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tomas\CLionProjects\Grupo2_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Excedent.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tomas\CLionProjects\Grupo2_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Excedent.c.obj"
 	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Grupo2_C.dir\src\TP_Cuatrimestral\Ejercicio5\Excedent.c.obj   -c C:\Users\Tomas\CLionProjects\Grupo2_C\src\TP_Cuatrimestral\Ejercicio5\Excedent.c
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Excedent.c.i: cmake_force
@@ -848,33 +824,9 @@ CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Excedent.c.obj.provides:
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Excedent.c.obj.provides.build: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Excedent.c.obj
 
 
-CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.obj: CMakeFiles/Grupo2_C.dir/flags.make
-CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.obj: ../src/TP_Cuatrimestral/Ejercicio2/Accessory.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tomas\CLionProjects\Grupo2_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.obj"
-	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Grupo2_C.dir\src\TP_Cuatrimestral\Ejercicio2\Accessory.c.obj   -c C:\Users\Tomas\CLionProjects\Grupo2_C\src\TP_Cuatrimestral\Ejercicio2\Accessory.c
-
-CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.i"
-	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Tomas\CLionProjects\Grupo2_C\src\TP_Cuatrimestral\Ejercicio2\Accessory.c > CMakeFiles\Grupo2_C.dir\src\TP_Cuatrimestral\Ejercicio2\Accessory.c.i
-
-CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.s"
-	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Tomas\CLionProjects\Grupo2_C\src\TP_Cuatrimestral\Ejercicio2\Accessory.c -o CMakeFiles\Grupo2_C.dir\src\TP_Cuatrimestral\Ejercicio2\Accessory.c.s
-
-CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.obj.requires:
-
-.PHONY : CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.obj.requires
-
-CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.obj.provides: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.obj.requires
-	$(MAKE) -f CMakeFiles\Grupo2_C.dir\build.make CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.obj.provides.build
-.PHONY : CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.obj.provides
-
-CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.obj.provides.build: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.obj
-
-
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Simulator.c.obj: CMakeFiles/Grupo2_C.dir/flags.make
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Simulator.c.obj: ../src/TP_Cuatrimestral/Ejercicio3/Simulator.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tomas\CLionProjects\Grupo2_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Simulator.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tomas\CLionProjects\Grupo2_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Simulator.c.obj"
 	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Grupo2_C.dir\src\TP_Cuatrimestral\Ejercicio3\Simulator.c.obj   -c C:\Users\Tomas\CLionProjects\Grupo2_C\src\TP_Cuatrimestral\Ejercicio3\Simulator.c
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Simulator.c.i: cmake_force
@@ -898,7 +850,7 @@ CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Simulator.c.obj.provides
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Business.c.obj: CMakeFiles/Grupo2_C.dir/flags.make
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Business.c.obj: ../src/TP_Cuatrimestral/Ejercicio1/Business.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tomas\CLionProjects\Grupo2_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Business.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tomas\CLionProjects\Grupo2_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Business.c.obj"
 	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Grupo2_C.dir\src\TP_Cuatrimestral\Ejercicio1\Business.c.obj   -c C:\Users\Tomas\CLionProjects\Grupo2_C\src\TP_Cuatrimestral\Ejercicio1\Business.c
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Business.c.i: cmake_force
@@ -922,7 +874,7 @@ CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Business.c.obj.provides.
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Person.c.obj: CMakeFiles/Grupo2_C.dir/flags.make
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Person.c.obj: ../src/TP_Cuatrimestral/Ejercicio4/Person.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tomas\CLionProjects\Grupo2_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Person.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tomas\CLionProjects\Grupo2_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Person.c.obj"
 	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Grupo2_C.dir\src\TP_Cuatrimestral\Ejercicio4\Person.c.obj   -c C:\Users\Tomas\CLionProjects\Grupo2_C\src\TP_Cuatrimestral\Ejercicio4\Person.c
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Person.c.i: cmake_force
@@ -946,7 +898,7 @@ CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Person.c.obj.provides.bu
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Hotel.c.obj: CMakeFiles/Grupo2_C.dir/flags.make
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Hotel.c.obj: ../src/TP_Cuatrimestral/Ejercicio4/Hotel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tomas\CLionProjects\Grupo2_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Hotel.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Tomas\CLionProjects\Grupo2_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Hotel.c.obj"
 	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Grupo2_C.dir\src\TP_Cuatrimestral\Ejercicio4\Hotel.c.obj   -c C:\Users\Tomas\CLionProjects\Grupo2_C\src\TP_Cuatrimestral\Ejercicio4\Hotel.c
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Hotel.c.i: cmake_force
@@ -993,7 +945,6 @@ Grupo2_C_OBJECTS = \
 "CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/LineSales.c.obj" \
 "CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Product.c.obj" \
 "CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Producer.c.obj" \
-"CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.obj" \
 "CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Supplier.c.obj" \
 "CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Room.c.obj" \
 "CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Reservation.c.obj" \
@@ -1003,7 +954,6 @@ Grupo2_C_OBJECTS = \
 "CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/License.c.obj" \
 "CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Rental.c.obj" \
 "CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Excedent.c.obj" \
-"CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.obj" \
 "CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Simulator.c.obj" \
 "CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Business.c.obj" \
 "CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Person.c.obj" \
@@ -1035,7 +985,6 @@ Grupo2_C.exe: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Sales.c.ob
 Grupo2_C.exe: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/LineSales.c.obj
 Grupo2_C.exe: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Product.c.obj
 Grupo2_C.exe: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Producer.c.obj
-Grupo2_C.exe: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.obj
 Grupo2_C.exe: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Supplier.c.obj
 Grupo2_C.exe: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Room.c.obj
 Grupo2_C.exe: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Reservation.c.obj
@@ -1045,7 +994,6 @@ Grupo2_C.exe: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Administra
 Grupo2_C.exe: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/License.c.obj
 Grupo2_C.exe: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Rental.c.obj
 Grupo2_C.exe: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Excedent.c.obj
-Grupo2_C.exe: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.obj
 Grupo2_C.exe: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Simulator.c.obj
 Grupo2_C.exe: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Business.c.obj
 Grupo2_C.exe: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Person.c.obj
@@ -1054,7 +1002,7 @@ Grupo2_C.exe: CMakeFiles/Grupo2_C.dir/build.make
 Grupo2_C.exe: CMakeFiles/Grupo2_C.dir/linklibs.rsp
 Grupo2_C.exe: CMakeFiles/Grupo2_C.dir/objects1.rsp
 Grupo2_C.exe: CMakeFiles/Grupo2_C.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Tomas\CLionProjects\Grupo2_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Linking C executable Grupo2_C.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Tomas\CLionProjects\Grupo2_C\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Linking C executable Grupo2_C.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Grupo2_C.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1085,7 +1033,6 @@ CMakeFiles/Grupo2_C.dir/requires: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/E
 CMakeFiles/Grupo2_C.dir/requires: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/LineSales.c.obj.requires
 CMakeFiles/Grupo2_C.dir/requires: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Product.c.obj.requires
 CMakeFiles/Grupo2_C.dir/requires: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Producer.c.obj.requires
-CMakeFiles/Grupo2_C.dir/requires: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.obj.requires
 CMakeFiles/Grupo2_C.dir/requires: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Supplier.c.obj.requires
 CMakeFiles/Grupo2_C.dir/requires: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Room.c.obj.requires
 CMakeFiles/Grupo2_C.dir/requires: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Reservation.c.obj.requires
@@ -1095,7 +1042,6 @@ CMakeFiles/Grupo2_C.dir/requires: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/E
 CMakeFiles/Grupo2_C.dir/requires: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/License.c.obj.requires
 CMakeFiles/Grupo2_C.dir/requires: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Rental.c.obj.requires
 CMakeFiles/Grupo2_C.dir/requires: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Excedent.c.obj.requires
-CMakeFiles/Grupo2_C.dir/requires: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.obj.requires
 CMakeFiles/Grupo2_C.dir/requires: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Simulator.c.obj.requires
 CMakeFiles/Grupo2_C.dir/requires: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Business.c.obj.requires
 CMakeFiles/Grupo2_C.dir/requires: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Person.c.obj.requires

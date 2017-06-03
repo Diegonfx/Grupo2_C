@@ -12,8 +12,8 @@ LineTicket* newLineTicket(char* id, Item* item, int units){
 
     LineTicket* res = malloc(sizeof(LineTicket));
 
-    res->id = malloc(sizeof(char) * strlen(id));
-    res->item= malloc(sizeof(Item));
+    res->id = malloc(sizeof(char) * strlen(id)+1);
+    res->item = malloc(sizeof(Item));
 
     res->id = id;
     res->item = item;

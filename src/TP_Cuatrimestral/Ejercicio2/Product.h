@@ -1,22 +1,43 @@
-//
-// Created by Diego Mancini on 19/5/17.
-//
+/**
+ * Declaration of a product (Camera and Accessory).
+ * @authors Tomas Iturralde, Diego Mancini
+ */
 
 #ifndef GRUPO2_C_PRODUCT_H
 #define GRUPO2_C_PRODUCT_H
 
 #include <stdio.h>
 
-typedef struct product Product;
+//CAMERA
+typedef struct camera Camera;
 
-struct product {
+struct camera {
     char* name;
     char* code;
-    int pvp;
+    int price;
     FILE image;
+    int megapixels;
+    int screenSize;
+    int zoom;
+    char **type;
 };
 
-Product* newProduct(char* name, char* code, int pvp, FILE image);
-void annihilateProduct(Product* product1);
+Camera* newCamera(char* name, char* code, int price, FILE image, int megapixels, int screenSize, int zoom);
+void destroyCamera(Camera* camera1);
+
+//ACCESSORY
+typedef struct accessory Accessory;
+
+struct accessory {
+    char* name;
+    char* code;
+    int price;
+    FILE image;
+    char* type;
+    char* description;
+};
+
+Accessory* newAccessory(char* name, char* code, int price, FILE image, char* type , char* description);
+void destroyAccessory(Accessory* accessory1);
 
 #endif //GRUPO2_C_PRODUCT_H
