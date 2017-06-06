@@ -609,33 +609,9 @@ CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Producer.c.o.provides: C
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Producer.c.o.provides.build: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Producer.c.o
 
 
-CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.o: CMakeFiles/Grupo2_C.dir/flags.make
-CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.o: ../src/TP_Cuatrimestral/Ejercicio2/Camera.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.o   -c /Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Camera.c
-
-CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Camera.c > CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.i
-
-CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Camera.c -o CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.s
-
-CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.o.requires:
-
-.PHONY : CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.o.requires
-
-CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.o.provides: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.o.requires
-	$(MAKE) -f CMakeFiles/Grupo2_C.dir/build.make CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.o.provides.build
-.PHONY : CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.o.provides
-
-CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.o.provides.build: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.o
-
-
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Supplier.c.o: CMakeFiles/Grupo2_C.dir/flags.make
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Supplier.c.o: ../src/TP_Cuatrimestral/Ejercicio2/Supplier.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Supplier.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Supplier.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Supplier.c.o   -c /Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Supplier.c
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Supplier.c.i: cmake_force
@@ -659,7 +635,7 @@ CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Supplier.c.o.provides.bu
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Room.c.o: CMakeFiles/Grupo2_C.dir/flags.make
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Room.c.o: ../src/TP_Cuatrimestral/Ejercicio4/Room.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Room.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Room.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Room.c.o   -c /Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Room.c
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Room.c.i: cmake_force
@@ -683,7 +659,7 @@ CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Room.c.o.provides.build:
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Reservation.c.o: CMakeFiles/Grupo2_C.dir/flags.make
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Reservation.c.o: ../src/TP_Cuatrimestral/Ejercicio4/Reservation.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Reservation.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Reservation.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Reservation.c.o   -c /Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Reservation.c
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Reservation.c.i: cmake_force
@@ -707,7 +683,7 @@ CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Reservation.c.o.provides
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Ticket.c.o: CMakeFiles/Grupo2_C.dir/flags.make
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Ticket.c.o: ../src/TP_Cuatrimestral/Ejercicio4/Ticket.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Ticket.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Ticket.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Ticket.c.o   -c /Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Ticket.c
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Ticket.c.i: cmake_force
@@ -731,7 +707,7 @@ CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Ticket.c.o.provides.buil
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Client.c.o: CMakeFiles/Grupo2_C.dir/flags.make
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Client.c.o: ../src/TP_Cuatrimestral/Ejercicio5/Client.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Client.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Client.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Client.c.o   -c /Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio5/Client.c
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Client.c.i: cmake_force
@@ -755,7 +731,7 @@ CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Client.c.o.provides.buil
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Administrator.c.o: CMakeFiles/Grupo2_C.dir/flags.make
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Administrator.c.o: ../src/TP_Cuatrimestral/Ejercicio5/Administrator.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Administrator.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Administrator.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Administrator.c.o   -c /Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio5/Administrator.c
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Administrator.c.i: cmake_force
@@ -779,7 +755,7 @@ CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Administrator.c.o.provid
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Rental.c.o: CMakeFiles/Grupo2_C.dir/flags.make
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Rental.c.o: ../src/TP_Cuatrimestral/Ejercicio5/Rental.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Rental.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Rental.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Rental.c.o   -c /Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio5/Rental.c
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Rental.c.i: cmake_force
@@ -803,7 +779,7 @@ CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Rental.c.o.provides.buil
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Excedent.c.o: CMakeFiles/Grupo2_C.dir/flags.make
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Excedent.c.o: ../src/TP_Cuatrimestral/Ejercicio5/Excedent.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Excedent.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Excedent.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Excedent.c.o   -c /Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio5/Excedent.c
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Excedent.c.i: cmake_force
@@ -825,33 +801,9 @@ CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Excedent.c.o.provides: C
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Excedent.c.o.provides.build: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Excedent.c.o
 
 
-CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.o: CMakeFiles/Grupo2_C.dir/flags.make
-CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.o: ../src/TP_Cuatrimestral/Ejercicio2/Accessory.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.o   -c /Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Accessory.c
-
-CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Accessory.c > CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.i
-
-CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Accessory.c -o CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.s
-
-CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.o.requires:
-
-.PHONY : CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.o.requires
-
-CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.o.provides: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.o.requires
-	$(MAKE) -f CMakeFiles/Grupo2_C.dir/build.make CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.o.provides.build
-.PHONY : CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.o.provides
-
-CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.o.provides.build: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.o
-
-
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Simulator.c.o: CMakeFiles/Grupo2_C.dir/flags.make
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Simulator.c.o: ../src/TP_Cuatrimestral/Ejercicio3/Simulator.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Simulator.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Simulator.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Simulator.c.o   -c /Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio3/Simulator.c
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Simulator.c.i: cmake_force
@@ -875,7 +827,7 @@ CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Simulator.c.o.provides.b
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Business.c.o: CMakeFiles/Grupo2_C.dir/flags.make
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Business.c.o: ../src/TP_Cuatrimestral/Ejercicio1/Business.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Business.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Business.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Business.c.o   -c /Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Business.c
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Business.c.i: cmake_force
@@ -899,7 +851,7 @@ CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Business.c.o.provides.bu
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Person.c.o: CMakeFiles/Grupo2_C.dir/flags.make
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Person.c.o: ../src/TP_Cuatrimestral/Ejercicio4/Person.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Person.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Person.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Person.c.o   -c /Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Person.c
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Person.c.i: cmake_force
@@ -923,7 +875,7 @@ CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Person.c.o.provides.buil
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Hotel.c.o: CMakeFiles/Grupo2_C.dir/flags.make
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Hotel.c.o: ../src/TP_Cuatrimestral/Ejercicio4/Hotel.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Hotel.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Hotel.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Hotel.c.o   -c /Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Hotel.c
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Hotel.c.i: cmake_force
@@ -943,30 +895,6 @@ CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Hotel.c.o.provides: CMak
 .PHONY : CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Hotel.c.o.provides
 
 CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Hotel.c.o.provides.build: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Hotel.c.o
-
-
-CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/IDcard.c.o: CMakeFiles/Grupo2_C.dir/flags.make
-CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/IDcard.c.o: ../src/TP_Cuatrimestral/Ejercicio5/IDcard.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/IDcard.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/IDcard.c.o   -c /Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio5/IDcard.c
-
-CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/IDcard.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/IDcard.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio5/IDcard.c > CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/IDcard.c.i
-
-CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/IDcard.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/IDcard.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio5/IDcard.c -o CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/IDcard.c.s
-
-CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/IDcard.c.o.requires:
-
-.PHONY : CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/IDcard.c.o.requires
-
-CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/IDcard.c.o.provides: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/IDcard.c.o.requires
-	$(MAKE) -f CMakeFiles/Grupo2_C.dir/build.make CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/IDcard.c.o.provides.build
-.PHONY : CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/IDcard.c.o.provides
-
-CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/IDcard.c.o.provides.build: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/IDcard.c.o
 
 
 # Object files for target Grupo2_C
@@ -994,7 +922,6 @@ Grupo2_C_OBJECTS = \
 "CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/LineSales.c.o" \
 "CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Product.c.o" \
 "CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Producer.c.o" \
-"CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.o" \
 "CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Supplier.c.o" \
 "CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Room.c.o" \
 "CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Reservation.c.o" \
@@ -1003,12 +930,10 @@ Grupo2_C_OBJECTS = \
 "CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Administrator.c.o" \
 "CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Rental.c.o" \
 "CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Excedent.c.o" \
-"CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.o" \
 "CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Simulator.c.o" \
 "CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Business.c.o" \
 "CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Person.c.o" \
-"CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Hotel.c.o" \
-"CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/IDcard.c.o"
+"CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Hotel.c.o"
 
 # External object files for target Grupo2_C
 Grupo2_C_EXTERNAL_OBJECTS =
@@ -1036,7 +961,6 @@ Grupo2_C: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Sales.c.o
 Grupo2_C: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/LineSales.c.o
 Grupo2_C: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Product.c.o
 Grupo2_C: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Producer.c.o
-Grupo2_C: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.o
 Grupo2_C: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Supplier.c.o
 Grupo2_C: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Room.c.o
 Grupo2_C: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Reservation.c.o
@@ -1045,15 +969,13 @@ Grupo2_C: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Client.c.o
 Grupo2_C: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Administrator.c.o
 Grupo2_C: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Rental.c.o
 Grupo2_C: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Excedent.c.o
-Grupo2_C: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.o
 Grupo2_C: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Simulator.c.o
 Grupo2_C: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Business.c.o
 Grupo2_C: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Person.c.o
 Grupo2_C: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Hotel.c.o
-Grupo2_C: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/IDcard.c.o
 Grupo2_C: CMakeFiles/Grupo2_C.dir/build.make
 Grupo2_C: CMakeFiles/Grupo2_C.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Linking C executable Grupo2_C"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Linking C executable Grupo2_C"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Grupo2_C.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -1084,7 +1006,6 @@ CMakeFiles/Grupo2_C.dir/requires: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/E
 CMakeFiles/Grupo2_C.dir/requires: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/LineSales.c.o.requires
 CMakeFiles/Grupo2_C.dir/requires: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Product.c.o.requires
 CMakeFiles/Grupo2_C.dir/requires: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Producer.c.o.requires
-CMakeFiles/Grupo2_C.dir/requires: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.o.requires
 CMakeFiles/Grupo2_C.dir/requires: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Supplier.c.o.requires
 CMakeFiles/Grupo2_C.dir/requires: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Room.c.o.requires
 CMakeFiles/Grupo2_C.dir/requires: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Reservation.c.o.requires
@@ -1093,12 +1014,10 @@ CMakeFiles/Grupo2_C.dir/requires: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/E
 CMakeFiles/Grupo2_C.dir/requires: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Administrator.c.o.requires
 CMakeFiles/Grupo2_C.dir/requires: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Rental.c.o.requires
 CMakeFiles/Grupo2_C.dir/requires: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/Excedent.c.o.requires
-CMakeFiles/Grupo2_C.dir/requires: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.o.requires
 CMakeFiles/Grupo2_C.dir/requires: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio3/Simulator.c.o.requires
 CMakeFiles/Grupo2_C.dir/requires: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Business.c.o.requires
 CMakeFiles/Grupo2_C.dir/requires: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Person.c.o.requires
 CMakeFiles/Grupo2_C.dir/requires: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio4/Hotel.c.o.requires
-CMakeFiles/Grupo2_C.dir/requires: CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio5/IDcard.c.o.requires
 
 .PHONY : CMakeFiles/Grupo2_C.dir/requires
 

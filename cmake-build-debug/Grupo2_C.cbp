@@ -8,300 +8,277 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Tomas/CLionProjects/Grupo2_C/cmake-build-debug"/>
+				<Option working_dir="/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Tomas/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Tomas/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Tomas/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Tomas/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Grupo2_C">
-				<Option output="C:/Users/Tomas/CLionProjects/Grupo2_C/cmake-build-debug/Grupo2_C.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Tomas/CLionProjects/Grupo2_C/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Tomas/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 Grupo2_C"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Tomas/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Tomas/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Tomas/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Grupo2_C/fast">
-				<Option output="C:/Users/Tomas/CLionProjects/Grupo2_C/cmake-build-debug/Grupo2_C.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Tomas/CLionProjects/Grupo2_C/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Tomas/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 Grupo2_C/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Tomas/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Tomas/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Tomas/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Tomas/CLionProjects/Grupo2_C/cmake-build-debug"/>
+				<Option working_dir="/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Tomas/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Tomas/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Tomas/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Tomas/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Tomas/CLionProjects/Grupo2_C/cmake-build-debug"/>
+				<Option working_dir="/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Tomas/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Tomas/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Tomas/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Tomas/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Grupo2_C">
+				<Option output="/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/Grupo2_C" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 Grupo2_C"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Grupo2_C/fast">
+				<Option output="/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/Grupo2_C" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 Grupo2_C/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/DiegoMancini/CLionProjects/Grupo2_C/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/Class1_Introduction/Car.c">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/Class1_Introduction/Car.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/Class1_Introduction/Car.h">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/Class1_Introduction/Car.h">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/Class1_Introduction/Main.c">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/Class1_Introduction/Main.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/Class1_Introduction/Parking.c">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/Class1_Introduction/Parking.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/Class1_Introduction/Parking.h">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/Class1_Introduction/Parking.h">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TAD/ComplexNumber.c">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TAD/ComplexNumber.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TAD/ComplexNumber.h">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TAD/ComplexNumber.h">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TAD/Tester.c">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TAD/Tester.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Business.c">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Business.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Business.h">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Business.h">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Cart.c">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Cart.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Cart.h">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Cart.h">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Catalogue.c">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Catalogue.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Catalogue.h">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Catalogue.h">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Item.c">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Item.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Item.h">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Item.h">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Label.c">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Label.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Label.h">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Label.h">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/LineCart.c">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/LineCart.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/LineCart.h">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/LineCart.h">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/LineTicket.c">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/LineTicket.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/LineTicket.h">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/LineTicket.h">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Manufacturer.c">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Manufacturer.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Manufacturer.h">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Manufacturer.h">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Supplier.c">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Supplier.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Supplier.h">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Supplier.h">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Ticket.c">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Ticket.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Ticket.h">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio1/Ticket.h">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Accessory.c">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/LineSales.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Accessory.h">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/LineSales.h">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Camera.c">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Producer.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Camera.h">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Producer.h">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/LineSales.c">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Product.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/LineSales.h">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Product.h">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Producer.c">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/RegisteredUser.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Producer.h">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/RegisteredUser.h">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Product.c">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Sales.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Product.h">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Sales.h">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/RegisteredUser.c">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Supplier.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/RegisteredUser.h">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Supplier.h">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Sales.c">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio3/Library.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Sales.h">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio3/Library.h">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Supplier.c">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio3/Loan.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio2/Supplier.h">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio3/Loan.h">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio3/Library.c">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio3/Material.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio3/Library.h">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio3/Material.h">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio3/Loan.c">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio3/Person.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio3/Loan.h">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio3/Person.h">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio3/Material.c">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio3/Simulator.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio3/Material.h">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Hotel.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio3/Person.c">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Person.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio3/Person.h">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Person.h">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio3/Simulator.c">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Reservation.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Hotel.c">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Reservation.h">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Hotel.h">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Room.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Person.c">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Room.h">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Person.h">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Ticket.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Reservation.c">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Ticket.h">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Reservation.h">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio5/Administrator.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Room.c">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio5/Administrator.h">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Room.h">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio5/Client.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Ticket.c">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio5/Client.h">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio4/Ticket.h">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio5/Excedent.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio5/Administrator.c">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio5/Excedent.h">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio5/Administrator.h">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio5/Rental.c">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio5/Client.c">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio5/Rental.h">
 			<Option target="Grupo2_C"/>
 		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio5/Client.h">
-			<Option target="Grupo2_C"/>
-		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio5/Excedent.c">
-			<Option target="Grupo2_C"/>
-		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio5/Excedent.h">
-			<Option target="Grupo2_C"/>
-		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio5/License.c">
-			<Option target="Grupo2_C"/>
-		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio5/License.h">
-			<Option target="Grupo2_C"/>
-		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio5/Rental.c">
-			<Option target="Grupo2_C"/>
-		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/src/TP_Cuatrimestral/Ejercicio5/Rental.h">
-			<Option target="Grupo2_C"/>
-		</Unit>
-		<Unit filename="C:/Users/Tomas/CLionProjects/Grupo2_C/CMakeLists.txt">
+		<Unit filename="/Users/DiegoMancini/CLionProjects/Grupo2_C/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
