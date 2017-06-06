@@ -6,13 +6,13 @@
 #include <memory.h>
 #include "Room.h"
 
-Room* newRoom(int roomNumber, char* type){
+Room* newRoom(int roomNumber, char* type , int price){
     Room* room1 = malloc(sizeof(Room));
 
     room1->type = malloc(sizeof(char) * strlen(type));
 
-    room1->type = type;
     room1->roomNumber = roomNumber;
+    room1->price = price;
 
     strcpy(room1->type , type);
 

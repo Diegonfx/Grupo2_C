@@ -8,7 +8,6 @@
 //STUDENT
 
 #include "Material.h"
-#include "Library.h"
 
 typedef struct student Student;
 

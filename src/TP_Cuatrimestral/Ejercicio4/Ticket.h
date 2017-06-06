@@ -13,10 +13,10 @@ struct ticket {
     char* hotelName;
     char* clientName;
     int idNumber;
-    double price;
+    int price;
 };
 
-Ticket* newTicket(int ticketNumber, int hotelCUIT , char* hotelName , char* clientName , int idNumber , double price);
+Ticket* newTicket(int ticketNumber,char* clientName , int idNumber , int price);
 void destroyTicket(Ticket* ticket1);
 
 #endif //GRUPO2_C_TICKET_H

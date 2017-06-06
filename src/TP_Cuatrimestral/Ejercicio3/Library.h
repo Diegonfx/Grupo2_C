@@ -33,16 +33,18 @@ void addStudent(Student* student1, Library* library1);
 void addProfessor(Professor* professor1, Library* library1);
 void addLoan(Loan* loan1, Library* library1);
 
-void rentBookStudent(Book* book1, Library* library1 , Student* student1);
-void rentMagazineStudent(Magazine* magazine1, Library* library1, Student* student1);
-void rentBookProfessor(Book* book1, Library* library1 , Professor* professor);
-void rentMagazineProfessor(Magazine* magazine1, Library* library1, Professor* professor1);
+void rentBookStudent(Book* book1, Library* library1 , Student* student1 , char* taken , char* returndate);
+void rentMagazineStudent(Magazine* magazine1, Library* library1, Student* student1, char* taken , char* returndate);
+void rentBookProfessor(Book* book1, Library* library1 , Professor* professor, char* taken , char* returndate);
+void rentMagazineProfessor(Magazine* magazine1, Library* library1, Professor* professor1, char* taken , char* returndate);
 
 void returnBookStudent(Book* book1, Library* library1 , Student* student1);
 void returnMagazineStudent(Magazine* magazine1, Library* library1 , Student* student1);
 void returnBookProfessor(Book* book1, Library* library1 , Professor* professor);
 void returnMagazineProfessor(Magazine* magazine1, Library* library1, Professor* professor1);
 
+void loadDatabase(Library* library1);
+void printInfo(Library* library1);
 void destroyLibrary(Library* library);
 
 #endif //GRUPO2_C_LIBRARY_H

@@ -10,7 +10,7 @@ typedef struct book Book;
 
 struct book{
     char* type;
-    char* codeISBN;
+    int codeISBN;
     char* author;
     char* title;
     int year;
@@ -19,7 +19,7 @@ struct book{
 };
 
 //Methods
-Book* newBook(char* codeISBN, char* author, char* title, int year, char* editorial);
+Book* newBook(int codeISBN, char* author, char* title, int year, char* editorial);
 void destroyBook(Book* book1);
 
 
@@ -28,7 +28,7 @@ typedef struct magazine Magazine;
 
 struct magazine{
     char* type;
-    char* codeISBN;
+    int codeISBN;
     char* author;
     char* title;
     int year;
@@ -36,7 +36,7 @@ struct magazine{
 };
 
 //Methods
-Magazine* newMagazine(char* codeISBN, char* author, char* title, int year);
+Magazine* newMagazine(int codeISBN, char* author, char* title, int year);
 void destroyMagazine(Magazine* magazine1);
 
 #endif //GRUPO2_C_MATERIAL_H

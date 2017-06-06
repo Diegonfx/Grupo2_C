@@ -11,15 +11,12 @@
 Student* newStudent(char* name, char* surname, char* email, int phone, int idStudent){
     Student* student1 = malloc(sizeof(Student));
 
-    student1->type = malloc(sizeof(char) * 8);
-    student1->name = malloc(sizeof(char) * strlen(name));
-    student1->surname = malloc(sizeof(char) * strlen(surname));
-    student1->email = malloc(sizeof(char) * strlen(email));
+    student1->type = malloc(sizeof(char) * 9);
+    student1->name = malloc(sizeof(char) * strlen(name) + 1);
+    student1->surname = malloc(sizeof(char) * strlen(surname) + 1);
+    student1->email = malloc(sizeof(char) * strlen(email) + 1);
 
     student1->type = "Student";
-    student1->name = name;
-    student1->surname = surname;
-    student1->email = email;
     student1->phone = phone;
     student1->amountBooks = 0;
     student1->amountMagazines = 0;
@@ -48,14 +45,11 @@ Professor* newProfessor(char* name, char* surname, char* email, int phone, int i
     Professor* pro = malloc(sizeof(Professor));
 
     pro->type = malloc(sizeof(char) * 10);
-    pro->name = malloc(sizeof(char) * strlen(name));
-    pro->surname = malloc(sizeof(char) * strlen(surname));
-    pro->email = malloc(sizeof(char) * strlen(email));
+    pro->name = malloc(sizeof(char) * strlen(name) + 1);
+    pro->surname = malloc(sizeof(char) * strlen(surname) + 1);
+    pro->email = malloc(sizeof(char) * strlen(email) +1 );
 
     pro->type = "Professor";
-    pro->name = name;
-    pro->surname = surname;
-    pro->email = email;
     pro->phone = phone;
     pro->amountBooks = 0;
     pro->amountMagazines = 0;

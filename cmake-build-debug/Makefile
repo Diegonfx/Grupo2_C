@@ -527,6 +527,60 @@ src/TP_Cuatrimestral/Ejercicio1/Ticket.c.s:
 	$(MAKE) -f CMakeFiles\Grupo2_C.dir\build.make CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio1/Ticket.c.s
 .PHONY : src/TP_Cuatrimestral/Ejercicio1/Ticket.c.s
 
+src/TP_Cuatrimestral/Ejercicio2/Accessory.obj: src/TP_Cuatrimestral/Ejercicio2/Accessory.c.obj
+
+.PHONY : src/TP_Cuatrimestral/Ejercicio2/Accessory.obj
+
+# target to build an object file
+src/TP_Cuatrimestral/Ejercicio2/Accessory.c.obj:
+	$(MAKE) -f CMakeFiles\Grupo2_C.dir\build.make CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.obj
+.PHONY : src/TP_Cuatrimestral/Ejercicio2/Accessory.c.obj
+
+src/TP_Cuatrimestral/Ejercicio2/Accessory.i: src/TP_Cuatrimestral/Ejercicio2/Accessory.c.i
+
+.PHONY : src/TP_Cuatrimestral/Ejercicio2/Accessory.i
+
+# target to preprocess a source file
+src/TP_Cuatrimestral/Ejercicio2/Accessory.c.i:
+	$(MAKE) -f CMakeFiles\Grupo2_C.dir\build.make CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.i
+.PHONY : src/TP_Cuatrimestral/Ejercicio2/Accessory.c.i
+
+src/TP_Cuatrimestral/Ejercicio2/Accessory.s: src/TP_Cuatrimestral/Ejercicio2/Accessory.c.s
+
+.PHONY : src/TP_Cuatrimestral/Ejercicio2/Accessory.s
+
+# target to generate assembly for a file
+src/TP_Cuatrimestral/Ejercicio2/Accessory.c.s:
+	$(MAKE) -f CMakeFiles\Grupo2_C.dir\build.make CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Accessory.c.s
+.PHONY : src/TP_Cuatrimestral/Ejercicio2/Accessory.c.s
+
+src/TP_Cuatrimestral/Ejercicio2/Camera.obj: src/TP_Cuatrimestral/Ejercicio2/Camera.c.obj
+
+.PHONY : src/TP_Cuatrimestral/Ejercicio2/Camera.obj
+
+# target to build an object file
+src/TP_Cuatrimestral/Ejercicio2/Camera.c.obj:
+	$(MAKE) -f CMakeFiles\Grupo2_C.dir\build.make CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.obj
+.PHONY : src/TP_Cuatrimestral/Ejercicio2/Camera.c.obj
+
+src/TP_Cuatrimestral/Ejercicio2/Camera.i: src/TP_Cuatrimestral/Ejercicio2/Camera.c.i
+
+.PHONY : src/TP_Cuatrimestral/Ejercicio2/Camera.i
+
+# target to preprocess a source file
+src/TP_Cuatrimestral/Ejercicio2/Camera.c.i:
+	$(MAKE) -f CMakeFiles\Grupo2_C.dir\build.make CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.i
+.PHONY : src/TP_Cuatrimestral/Ejercicio2/Camera.c.i
+
+src/TP_Cuatrimestral/Ejercicio2/Camera.s: src/TP_Cuatrimestral/Ejercicio2/Camera.c.s
+
+.PHONY : src/TP_Cuatrimestral/Ejercicio2/Camera.s
+
+# target to generate assembly for a file
+src/TP_Cuatrimestral/Ejercicio2/Camera.c.s:
+	$(MAKE) -f CMakeFiles\Grupo2_C.dir\build.make CMakeFiles/Grupo2_C.dir/src/TP_Cuatrimestral/Ejercicio2/Camera.c.s
+.PHONY : src/TP_Cuatrimestral/Ejercicio2/Camera.c.s
+
 src/TP_Cuatrimestral/Ejercicio2/LineSales.obj: src/TP_Cuatrimestral/Ejercicio2/LineSales.c.obj
 
 .PHONY : src/TP_Cuatrimestral/Ejercicio2/LineSales.obj
@@ -1148,6 +1202,12 @@ help:
 	@echo ... src/TP_Cuatrimestral/Ejercicio1/Ticket.obj
 	@echo ... src/TP_Cuatrimestral/Ejercicio1/Ticket.i
 	@echo ... src/TP_Cuatrimestral/Ejercicio1/Ticket.s
+	@echo ... src/TP_Cuatrimestral/Ejercicio2/Accessory.obj
+	@echo ... src/TP_Cuatrimestral/Ejercicio2/Accessory.i
+	@echo ... src/TP_Cuatrimestral/Ejercicio2/Accessory.s
+	@echo ... src/TP_Cuatrimestral/Ejercicio2/Camera.obj
+	@echo ... src/TP_Cuatrimestral/Ejercicio2/Camera.i
+	@echo ... src/TP_Cuatrimestral/Ejercicio2/Camera.s
 	@echo ... src/TP_Cuatrimestral/Ejercicio2/LineSales.obj
 	@echo ... src/TP_Cuatrimestral/Ejercicio2/LineSales.i
 	@echo ... src/TP_Cuatrimestral/Ejercicio2/LineSales.s
