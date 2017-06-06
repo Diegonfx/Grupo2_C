@@ -12,14 +12,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a38298f6-3b5b-4dd0-9f8a-90862259e29c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Simulator.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CMakeCXXCompiler.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.6.3/CMakeCXXCompiler.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Grupo2_C.cbp" afterPath="$PROJECT_DIR$/cmake-build-debug/Grupo2_C.cbp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio3/Library.c" afterPath="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio3/Library.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Business.h" afterPath="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Business.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Cart.c" afterPath="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Cart.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Cart.h" afterPath="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Cart.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Catalogue.h" afterPath="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Catalogue.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Item.h" afterPath="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Item.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Label.h" afterPath="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Label.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/LineCart.h" afterPath="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/LineCart.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/LineTicket.h" afterPath="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/LineTicket.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Manufacturer.h" afterPath="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Manufacturer.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Simulator.c" afterPath="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Simulator.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Supplier.h" afterPath="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Supplier.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Ticket.h" afterPath="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Ticket.h" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,43 +43,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Simulator.c" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Simulator.c">
+      <file leaf-file-name="Ticket.h" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Ticket.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding>
-                <element signature="e#84#103#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Supplier.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Supplier.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="56">
-              <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LineCart.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/LineCart.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="362">
-              <caret line="32" column="119" lean-forward="true" selection-start-line="32" selection-start-column="119" selection-end-line="32" selection-end-column="119" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Cart.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Cart.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+            <state relative-caret-position="170">
+              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -104,21 +77,10 @@
         <option value="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio3/Library.h" />
         <option value="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio3/Material.c" />
         <option value="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio3/Person.h" />
-        <option value="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Item.h" />
-        <option value="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Label.h" />
-        <option value="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Cart.h" />
-        <option value="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/LineCart.h" />
-        <option value="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/LineTicket.h" />
-        <option value="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Ticket.h" />
         <option value="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio3/Loan.h" />
         <option value="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio3/Loan.c" />
-        <option value="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Manufacturer.h" />
-        <option value="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Catalogue.h" />
-        <option value="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Supplier.h" />
-        <option value="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Business.h" />
         <option value="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio2/Camera.h" />
         <option value="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio2/Camera.c" />
-        <option value="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Cart.c" />
         <option value="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Catalogue.c" />
         <option value="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Item.c" />
         <option value="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Label.c" />
@@ -145,6 +107,17 @@
         <option value="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio3/Library.c" />
         <option value="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio3/Simulator.c" />
         <option value="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Simulator.c" />
+        <option value="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Business.h" />
+        <option value="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Cart.c" />
+        <option value="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Cart.h" />
+        <option value="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Catalogue.h" />
+        <option value="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Item.h" />
+        <option value="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Label.h" />
+        <option value="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/LineCart.h" />
+        <option value="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/LineTicket.h" />
+        <option value="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Manufacturer.h" />
+        <option value="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Supplier.h" />
+        <option value="$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Ticket.h" />
       </list>
     </option>
   </component>
@@ -221,28 +194,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="TP_Cuatrimestral" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Grupo2_C" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Grupo2_C" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TP_Cuatrimestral" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ejercicio3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -520,7 +471,7 @@
       <workItem from="1496706960710" duration="839000" />
       <workItem from="1496709727873" duration="5931000" />
       <workItem from="1496750601489" duration="6207000" />
-      <workItem from="1496757197800" duration="5259000" />
+      <workItem from="1496757197800" duration="6265000" />
     </task>
     <task id="LOCAL-00001" summary="SOlved">
       <created>1489882064969</created>
@@ -599,11 +550,18 @@
       <option name="project" value="LOCAL" />
       <updated>1496757211885</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added tester to ej1">
+      <created>1496765819695</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1496765819695</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110801000" />
+    <option name="totallyTimeSpent" value="111807000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -616,9 +574,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7201309" sideWeight="0.49375" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23728813" sideWeight="0.49583334" order="11" side_tool="false" content_ui="tabs" />
@@ -676,7 +634,8 @@
     <MESSAGE value="continuado ej1" />
     <MESSAGE value="ej1 done (?)" />
     <MESSAGE value="ej2 muy avanzado" />
-    <option name="LAST_COMMIT_MESSAGE" value="ej2 muy avanzado" />
+    <MESSAGE value="added tester to ej1" />
+    <option name="LAST_COMMIT_MESSAGE" value="added tester to ej1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -745,34 +704,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio2/Camera.c" />
     <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio2/Accessory.c" />
-    <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Item.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="57" lean-forward="false" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Catalogue.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="55" lean-forward="false" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Label.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="14" column="51" lean-forward="false" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/LineTicket.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/MinGW/include/sys/types.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="430">
@@ -788,20 +719,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Manufacturer.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
-          <caret line="64" column="42" lean-forward="false" selection-start-line="64" selection-start-column="42" selection-end-line="64" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Supplier.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio2/Supplier.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -814,14 +731,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="28" lean-forward="false" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Business.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-947">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -894,14 +803,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Ticket.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio2/Sales.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -934,82 +835,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Item.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Label.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/LineTicket.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Ticket.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Manufacturer.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="51" lean-forward="true" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio3/Library.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4126">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Catalogue.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Business.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="26" column="38" lean-forward="false" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Cart.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="940">
-          <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Supplier.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="6" column="27" lean-forward="true" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -1022,10 +851,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/LineCart.h">
+    <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Business.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="32" column="26" lean-forward="false" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Cart.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="79" column="1" lean-forward="false" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Business.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1253">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Cart.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Catalogue.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="14" column="55" lean-forward="false" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Catalogue.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="29" lean-forward="false" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Item.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="14" column="57" lean-forward="false" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Item.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Label.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="51" lean-forward="false" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Label.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="47" lean-forward="false" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
+          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1038,21 +939,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Cart.h">
+    <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/LineCart.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        <state relative-caret-position="374">
+          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/LineTicket.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/LineTicket.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="30" lean-forward="false" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Manufacturer.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="64" column="42" lean-forward="false" selection-start-line="64" selection-start-column="42" selection-end-line="64" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Manufacturer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="32" lean-forward="false" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Simulator.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="331">
+          <caret line="132" column="26" lean-forward="true" selection-start-line="132" selection-start-column="26" selection-end-line="132" selection-end-column="26" />
           <folding>
             <element signature="e#84#103#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Supplier.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-998">
+          <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Supplier.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="31" column="28" lean-forward="false" selection-start-line="31" selection-start-column="28" selection-end-line="31" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Ticket.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="21" column="19" lean-forward="true" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TP_Cuatrimestral/Ejercicio1/Ticket.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
