@@ -20,6 +20,7 @@ struct camera {
     int screenSize;
     int zoom;
     char **type;
+    char* productType;
 };
 
 Camera* newCamera(char* name, char* code, int price, FILE image, int megapixels, int screenSize, int zoom);
@@ -35,6 +36,7 @@ struct accessory {
     FILE image;
     char* type;
     char* description;
+    char* productType;
 };
 
 Accessory* newAccessory(char* name, char* code, int price, FILE image, char* type , char* description);

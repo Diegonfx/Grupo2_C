@@ -25,6 +25,7 @@ Camera* newCamera(char* name, char* code, int price, FILE image, int megapixels,
     camera1->zoom = zoom;
     camera1->type[0] = "Reflex";
     camera1->type[1] = "Compact";
+    camera1->productType = "Camera";
 
     strcpy(camera1->name, name);
     strcpy(camera1->code,  code);
@@ -57,6 +58,7 @@ Accessory* newAccessory(char* name, char* code, int price, FILE image, char* typ
     result->image = image;
     result->type = type;
     result->description = description;
+    result->productType = "Accessory";
 
     strcpy(result->name, name);
     strcpy(result->code,  code);
